@@ -1,7 +1,7 @@
 ---
 title: "Why Trucks Keep Hitting 11-Foot-8 Bridges — And How I Built BridgeSpan AI with Gemma 4 & Google ADK to Stop Them"
 published: false
-description: "How I built an open-source heavy-freight bridge strike, axle-load, and flood-scour safety agent using Gemma 4, Google ADK, OSRM routing, and 4,800+ real FHWA NBI + OSM bridges."
+description: "How I built a mobile-responsive global bridge-strike, axle-load, and flood-scour safety platform using Gemma 4, Google ADK, OSRM routing, and 4,809 real FHWA NBI + OSM bridges."
 tags: ai, googlecloud, opensource, python
 canonical_url: https://github.com/RobinaMirbahar/bridgespan-ai
 cover_image: https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_banner.jpg
@@ -9,9 +9,11 @@ cover_image: https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main
 
 **Author:** Robina Mirbahar  
 *AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator | WTM Ambassador*  
-*GitHub Repository:* [RobinaMirbahar/bridgespan-ai](https://github.com/RobinaMirbahar/bridgespan-ai)  
-*Live Streamlit App:* [bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app)  
-*Kaggle Open Dataset:* [BridgeSpan Bridge Strike, Load & Scour Dataset](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)  
+
+- 🚀 **Live Mobile-Responsive App:** [bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)
+- 💻 **GitHub Open-Source Repo:** [github.com/RobinaMirbahar/bridgespan-ai](https://github.com/RobinaMirbahar/bridgespan-ai)
+- 📊 **Kaggle Open Dataset (4,809 Bridges):** [BridgeSpan Bridge Strike, Load & Scour Dataset](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)
+- 📓 **Companion Kaggle Starter Notebook:** [BridgeSpan AI | 2024 FHWA NBI & Scour Starter](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)
 
 ---
 
@@ -24,11 +26,9 @@ Behind the memes is a massive, expensive civil-engineering failure mode:
 
 If you ask a standard LLM navigation chatbot *"Can my 13'-6\" truck clear that 3.89 m overpass?"* or *"Is Chain Bridge safe right now?"*, a single unit-conversion hallucination or ignored river-gauge surge turns into a physical catastrophe.
 
-To solve this properly, I built and open-sourced **BridgeSpan AI**—a global physical-infrastructure safety agent powered by **Google's open-weights Gemma 4**, the **Google Agent Development Kit (ADK)**, **OSRM heavy-truck routing**, and a **4,809-span real-world dataset** assembled from the 2024 US DOT Federal Highway Administration (FHWA) National Bridge Inventory, OpenStreetMap, USGS river gauges, and Copernicus GloFAS.
+To solve this properly, I built and open-sourced **BridgeSpan AI**—a mobile-responsive global fleet & infrastructure safety platform powered by **Google's open-weights Gemma 4**, the **Google Agent Development Kit (ADK)**, **OSRM heavy-truck routing**, and a **4,809-span real-world dataset** assembled from the 2024 US DOT Federal Highway Administration (FHWA) National Bridge Inventory, OpenStreetMap, USGS river gauges, and Copernicus GloFAS.
 
-![BridgeSpan AI Live Tactical Global Console](https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_console_live.jpg)
-
-In this article, I will walk through the exact failure modes of raw LLMs on civil-infrastructure math, how I wired deterministic 4-gate safety interlocks into Google ADK, how I collected the real global dataset, and how to deploy the tactical operator console serverlessly on **Google Cloud Run**.
+![BridgeSpan AI Live Console](https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_console_live.jpg)
 
 ---
 
@@ -36,22 +36,20 @@ In this article, I will walk through the exact failure modes of raw LLMs on civi
 
 When I tested unguarded prompts on real bridge-dispatch scenarios, three failure patterns appeared immediately:
 
-1. **Imperial (`ft-in`) vs. Metric (`m`) Arithmetic Traps:** North American trailers declare height in feet and inches (`13'-6"` = `4.115 m`), while many urban underpasses in Europe, Australia, Azerbaijan, and Pakistan post signs in meters (`3.95 m` or `3.0 m`). Worse, safe civil clearance requires a mandatory **`0.15 m` (`6 in`) dynamic suspension bounce & asphalt-overlay buffer**. An LLM that compares `4.11 m` against `4.15 m` without the bounce buffer approves a roof strike at highway speed.
+1. **Imperial (`ft-in`) vs. Metric (`m`) Arithmetic Traps:** North American trailers declare height in feet and inches (`13'-6"` = `4.115 m`), while urban underpasses in Europe, Australia, Azerbaijan, and Pakistan post signs in meters (`3.95 m` or `3.0 m`). Worse, safe civil clearance requires a mandatory **`0.15 m` (`6 in`) dynamic suspension bounce & asphalt-overlay buffer**. An LLM that compares `4.11 m` against `4.15 m` without the bounce buffer approves a roof strike at highway speed.
 2. **Silent Structural Overload:** A `12'-0"` mobile crane (`42.0 metric tons`) easily clears a `14'-2"` historic steel truss vertically—so height-only checks wave it through—even when the span's **FHWA Item 064 Operating Rating** is capped at `22.5 metric tons`.
 3. **Blindness to Live River Pier Scour:** During heavy rain or monsoon surges, a bridge deck looks dry and unobstructed on GPS maps while fast-moving water erodes riverbed sediment from beneath **FHWA Item 113 scour-critical** pier footings.
 
 ---
 
-## System Architecture: Cognitive Reasoning + Deterministic Hard Gates
+## System Architecture: Gemma 4 + Deterministic 4-Gate Civil Interlocks
 
 In safety-critical physical engineering, **an LLM should orchestrate tools and explain telemetry—never hold unchecked authority over structural limits.**
 
-Here is the architecture I implemented in [`RobinaMirbahar/bridgespan-ai`](https://github.com/RobinaMirbahar/bridgespan-ai):
-
 ```plaintext
 ┌──────────────────────────────────────────────────────────────────────┐
-│           BridgeSpan AI Tactical Global Operator Console             │
-│    8 Global Spans (US • AU • AZ • PK) • Dark CartoDB + OSRM Vector   │
+│      BridgeSpan AI Mobile-Responsive Fleet Safety Command UI         │
+│   8 Global Corridors (US • AU • AZ • PK) + Dark Leaflet OSRM Map     │
 └──────────────────────────────────┬───────────────────────────────────┘
                                    │
                                    ▼
@@ -65,16 +63,15 @@ Here is the architecture I implemented in [`RobinaMirbahar/bridgespan-ai`](https
                                    ▼
 ┌──────────────────────────────────────────────────────────────────────┐
 │          4-Gate Deterministic Civil Safety Interlocks (Python)       │
-│  • GATE 01 (Clearance): parse_height_m + 0.15m bounce > posted_m     │
-│  • GATE 02 (Axle Mass): gross_tons > FHWA Item 064 operating_tons    │
-│  • GATE 03 (Pier Scour): Item 113 critical & surge >= +1.80m -> LOCK │
-│  • GATE 04 (Crosswind): high-sided & gust >= 65 km/h -> CLAMP 50km/h │
+│  • GATE 1 (Clearance): parse_height_m + 0.15m bounce > posted_m      │
+│  • GATE 2 (Axle Mass): gross_tons > FHWA Item 064 operating_tons     │
+│  • GATE 3 (Pier Scour): Item 113 critical & surge >= +1.80m -> LOCK  │
+│  • GATE 4 (Crosswind): high-sided & gust >= 65 km/h -> CLAMP 50km/h  │
 └──────────────────────────────────┬───────────────────────────────────┘
                                    │
                                    ▼
 ┌──────────────────────────────────────────────────────────────────────┐
-│        Validated Pydantic v2 Output (`BridgeDispatchAdvisory`)       │
-│     Roadside LED VMS Gantry Banner + Green OSRM Safe Truck Bypass    │
+│     Live Overhead Highway LED Gantry Sign + Safe OSRM Truck Bypass   │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -109,13 +106,15 @@ def parse_height_to_meters(raw_height: str | float) -> float:
 
 When a driver declares `13'-6"` (`4.115 m`) approaching Durham's Gregson Street trestle (`12'-4"` / `3.76 m`), the guardrail computes:
 
-$$\text{Margin} = 3.76\text{ m} - (4.115\text{ m} + 0.15\text{ m}) = -0.505\text{ m}$$
+```text
+Effective Margin = 3.76 m - (4.115 m + 0.15 m bounce) = -0.505 m (STRIKE PREVENTED)
+```
 
-Gate 01 trips immediately (`DIVERT_OVERHEIGHT_STRIKE_PREVENTED`), triggers the roadside LED Variable Message Sign (`🚨 OVERHEIGHT 13'-6" (4.12m) — DIVERT RIGHT NOW`), and switches the map vector onto the verified **OSRM high-clearance arterial bypass**.
+Gate 1 trips immediately (`DIVERT_OVERHEIGHT_STRIKE_PREVENTED`), updates the overhead LED highway gantry sign (`🚨 OVERHEIGHT 13'-6" (4.12m) — DIVERT RIGHT NOW`), and reroutes the truck onto the verified **OSRM high-clearance arterial bypass**.
 
 ---
 
-## 2. Enforcing Structural Mass, Pier Flood-Scour & Crosswind Clamps
+## 2. Enforcing Axle Mass, Pier Flood-Scour & Crosswind Rollover Clamps
 
 Inside `evaluate_bridge_interlocks()`, all four civil-engineering invariants execute in strict safety priority order:
 
@@ -143,9 +142,10 @@ I also attached a Google ADK `before_tool_callback` (`bridge_adk_before_tool_gua
 
 ## 3. Assembling a 100% Real Global Dataset (Zero Synthetic Toy Rows)
 
-A safety benchmark is only as credible as its underlying physical data. Rather than inventing fake bridges, I wrote an automated multi-source ingestion pipeline (`collect_bridgespan_dataset.py`) pulling from **5 authoritative public APIs** and published the full corpus on Kaggle:
+Rather than inventing fake bridges, I built an automated multi-source ingestion pipeline (`collect_bridgespan_dataset.py`) pulling from **5 authoritative public APIs** and published both the dataset and a runnable starter notebook on Kaggle:
 
-👉 **[BridgeSpan Bridge Strike, Load & Scour Dataset on Kaggle](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)**
+- 📊 **Dataset:** [BridgeSpan Bridge Strike, Load & Scour Dataset](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)
+- 📓 **Starter Notebook:** [BridgeSpan AI | 2024 FHWA NBI & Scour Starter](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)
 
 | Table | Records | Real Public Source |
 | :--- | ---: | :--- |
@@ -157,20 +157,19 @@ A safety benchmark is only as credible as its underlying physical data. Rather t
 
 ---
 
-## 4. Designing a Tactical Deep-Tech Global Console
+## 4. Designing a Mobile-Responsive Fleet Safety UI
 
-Civil dispatchers and fleet operators need zero-clutter situational awareness across continents—whether monitoring **Durham's 11-Foot-8+8 trestle**, **Washington D.C.'s Potomac Chain Bridge**, **Melbourne's Montague Street 3.0 m light-rail bridge**, **Baku's Bilajari overpass under 78 km/h Caspian *Khazri* gales**, or **Karachi's Nazimabad monsoon corridor**.
+Commercial dispatchers work on wide desktop monitors, while field supervisors and truck drivers check routes on phones. Taking inspiration from modern fleet telematics platforms like **Samsara**, **Hammer**, and **BridgeWatch**, I designed `app.py` to be intuitive and mobile-responsive out of the box:
 
-I built the frontend in Streamlit (`app.py`) with a matte-obsidian deep-tech visual language:
-- **1-Click Global Span Matrix** switching seamlessly across the US, Australia, Azerbaijan, and Pakistan (plus a `🌍 GLOBAL WORLD VIEW` toggle).
-- **Live CartoDB Dark Matter + OSRM Vector Map** rendering blocked spans as dashed crimson polylines and verified heavy-truck detours as glowing emerald routes—requiring **zero paid map API keys**.
-- **4-Gate Deterministic Interlock Readout** paired with the **Gemma 4 + ADK Engineering Copilot** for interactive root-cause inspection.
+- **1-Tap Scenario Presets & Clean Vehicle Profiles:** Test a `13'-6"` semi-trailer, `42 t` mobile crane, Potomac flood-scour surge, or `78 km/h` Baku *Khazri* crosswind gale in a single tap.
+- **At-a-Glance Progress Meters & Overhead Highway LED Gantry Sign:** Visualizes exact clearance margin, axle load utilization, river surge, and OSRM bypass distance without raw debug JSON clutter.
+- **Keyless Dark OpenStreetMap + OSRM Vector Map:** Renders blocked bridges as dashed red lines and verified safe heavy-truck detours as bright emerald routes—requiring zero paid map API keys.
+
+Try it live right in your browser or on your phone: **[bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)**
 
 ---
 
 ## 5. Run Locally or Deploy Scale-to-Zero on Google Cloud Run
-
-You can clone and run the entire system locally in under a minute (no API keys required for deterministic dispatch, telemetry explorer, and live OSRM map routing):
 
 ```bash
 git clone https://github.com/RobinaMirbahar/bridgespan-ai.git
@@ -180,11 +179,11 @@ pip install -r requirements.txt
 # Verify all 80 benchmark scenarios & unit-conversion guardrails
 pytest -v
 
-# Launch the tactical operator console
+# Launch the mobile-responsive operator console
 streamlit run app.py
 ```
 
-And because the repo ships with a production `Dockerfile`, deploying to **Google Cloud Run** with scale-to-zero (`$0` idle cost) takes a single command:
+Deploying to **Google Cloud Run** with scale-to-zero (`$0` idle cost) takes a single command:
 
 ```bash
 gcloud run deploy bridgespan-ai \
@@ -198,13 +197,13 @@ gcloud run deploy bridgespan-ai \
 
 ## Key Takeaways for Agent Builders
 
-1. **Never Let Tokens Do Safety Math Alone:** Unit conversions (`13'-6"` -> `4.115 m`), structural load ratings, and flood-scour thresholds belong in deterministic Python interlocks tested by `pytest`—with the LLM handling tool orchestration and human-readable synthesis.
-2. **Real Public Infrastructure APIs Are Goldmines:** Combining FHWA NBI, OpenStreetMap Overpass, USGS 15-minute water telemetry, Copernicus GloFAS, and OSRM gives your AI agents authentic physical grounding without spending a cent on proprietary data feeds.
-3. **Open-Weights + Serverless Scales Cleanly:** Pairing **Gemma 4** and **Google ADK** with **Google Cloud Run** keeps infrastructure telemetry sovereign, auditable, and cost-efficient.
+1. **Never Let Tokens Do Safety Math Alone:** Unit conversions (`13'-6"` -> `4.115 m`), structural load ratings, and flood-scour thresholds belong in deterministic Python interlocks tested by `pytest`—with **Gemma 4 + Google ADK** handling tool orchestration and clear operator explanations.
+2. **Real Public Infrastructure APIs Are Goldmines:** Combining FHWA NBI, OpenStreetMap Overpass, USGS 15-minute water telemetry, Copernicus GloFAS, and OSRM gives AI agents authentic physical grounding at zero data licensing cost.
+3. **Design for Field Operators, Not Debug Logs:** Replace raw JSON dumps with traffic-light safety checklists, visual load bars, and mobile-responsive map vectors that drivers and dispatchers can read in two seconds.
 
 ---
 
-⭐ **Star & Fork the Code on GitHub:** [github.com/RobinaMirbahar/bridgespan-ai](https://github.com/RobinaMirbahar/bridgespan-ai)  
-📊 **Explore the Dataset on Kaggle:** [kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)  
-
-*What physical-world infrastructure problem would you put deterministic AI guardrails in front of next? Drop your thoughts in the comments—and stay tuned for Part 2 (**FloodCrest AI**), where I tackle urban cloudburst spillways and commuter underpass flash-flood countdowns!*
+- 🚀 **Try the Live App:** [bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)
+- ⭐ **Star & Fork on GitHub:** [github.com/RobinaMirbahar/bridgespan-ai](https://github.com/RobinaMirbahar/bridgespan-ai)
+- 📊 **Kaggle Dataset:** [kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)
+- 📓 **Kaggle Notebook:** [kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)
