@@ -4,7 +4,7 @@ published: false
 description: "How I built a mobile-responsive global bridge-strike, axle-load, and flood-scour safety platform using Gemma 4, Google ADK, OSRM routing, and 4,809 real FHWA NBI + OSM bridges."
 tags: ai, googlecloud, opensource, python
 canonical_url: https://github.com/RobinaMirbahar/bridgespan-ai
-cover_image: https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_banner.jpg
+cover_image: https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/devto_cover_1000x420.jpg
 ---
 
 **Author:** Robina Mirbahar  
