@@ -518,7 +518,11 @@ human_status = {
     "CLEAR_PRIMARY_ROUTE": "✅ ALL 4 SAFETY INTERLOCKS CLEAR — PROCEED ON PRIMARY ROUTE",
 }.get(advisory.dispatch_status, advisory.dispatch_status)
 
-clr_badge = f"{spec['posted_sign_label']} ({spec['posted_clearance_m']:.2f} m)" if spec["posted_clearance_m"] > 0 else "Unrestricted Open Deck"
+clr_badge = (
+    spec["posted_sign_label"]
+    if "m" in spec["posted_sign_label"].lower()
+    else f"{spec['posted_sign_label']} ({spec['posted_clearance_m']:.2f} m)"
+) if spec["posted_clearance_m"] > 0 else "Unrestricted Open Deck"
 
 render_html(f"""
 <div class="bs-verdict-wrap {verdict_cls}">
@@ -819,7 +823,7 @@ with col_ops:
 render_html('<div class="bs-section-label" style="margin-top:14px;">📊 Explore Real Public Bridge Inventory (4,809 Global Structures)</div>')
 tab_osm, tab_nbi = st.tabs([
     "🌍 Global OpenStreetMap Low-Clearance Spans (309)",
-    "🇺🇸 2024 US DOT FHWA National Bridge Inventory (4,500)",
+    "🌉 2024 US DOT FHWA National Bridge Inventory (4,500)",
 ])
 
 with tab_osm:
