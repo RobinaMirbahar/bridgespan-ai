@@ -321,14 +321,14 @@ render_html("""
 render_html('<div class="hm-sec-hdr"><span>[01]</span> GLOBAL CORRIDOR NETWORK — SELECT MONITORED SPAN (US • AU • AZ • PK)</div>')
 
 GLOBAL_BUTTONS = [
-    ("BRG-001", "🇺🇸 DURHAM 11-FT-8"),
-    ("BRG-002", "🇺🇸 BOSTON STORROW"),
-    ("BRG-003", "🇺🇸 POTOMAC SCOUR"),
-    ("BRG-004", "🇦🇺 MELBOURNE 3.0M"),
-    ("BRG-005", "🇺🇸 NYC PARKWAY"),
-    ("BRG-006", "🇦🇿 BAKU KHAZRI"),
-    ("BRG-007", "🇺🇸 PA 22.5T TRUSS"),
-    ("BRG-008", "🇵🇰 KARACHI MONSOON"),
+    ("BRG-001", "[US] DURHAM 11-FT-8"),
+    ("BRG-002", "[US] BOSTON STORROW"),
+    ("BRG-003", "[US] POTOMAC SCOUR"),
+    ("BRG-004", "[AU] MELBOURNE 3.0M"),
+    ("BRG-005", "[US] NYC PARKWAY"),
+    ("BRG-006", "[AZ] BAKU KHAZRI"),
+    ("BRG-007", "[US] PA 22.5T TRUSS"),
+    ("BRG-008", "[PK] KARACHI MONSOON"),
 ]
 
 g_cols = st.columns(4)
@@ -541,6 +541,7 @@ with col_map:
           pointer-events:auto; background:rgba(6,8,11,0.90); border:1px solid #262f40;
           padding:6px 12px; color:#cbd5e1; font-size:11px;
         }}
+        .leaflet-tile {{ filter: invert(100%) hue-rotate(180deg) brightness(92%) contrast(92%); }}
         .leaflet-popup-content-wrapper, .leaflet-popup-tip {{
           background:#0c1017 !important; color:#f8fafc !important; border:1px solid #334155; border-radius:2px;
         }}
@@ -574,8 +575,8 @@ with col_map:
         const startGlobal = {is_global};
 
         const map = L.map('map', {{ attributionControl: false }}).setView(startGlobal ? [28.0, 5.0] : [blat, blon], startGlobal ? 2 : 14);
-        L.tileLayer('https://{{s}}.basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}{{r}}.png', {{
-          maxZoom: 19, subdomains: 'abcd'
+        L.tileLayer('https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
+          maxZoom: 19
         }}).addTo(map);
 
         // Plot all 8 global monitored corridors
@@ -703,9 +704,9 @@ with col_ops:
 # ---------------------------------------------------------
 render_html('<div class="hm-sec-hdr" style="margin-top:14px;"><span>[05]</span> MULTI-SOURCE INFRASTRUCTURE DATA &amp; ADK PAYLOAD</div>')
 tab_osm, tab_nbi, tab_json = st.tabs([
-    "🌍 GLOBAL OSM LOW-CLEARANCE SPANS (309)",
-    "🇺🇸 2024 FHWA NBI HAZARD INVENTORY (4,500)",
-    "📦 VALIDATED ADK PYDANTIC JSON",
+    "GLOBAL OSM LOW-CLEARANCE SPANS (309)",
+    "US 2024 FHWA NBI HAZARD INVENTORY (4,500)",
+    "VALIDATED ADK PYDANTIC JSON",
 ])
 
 with tab_osm:
