@@ -28,117 +28,117 @@
           {
             "name": "bridge_id",
             "description": "Unique state-prefixed FHWA National Bridge Inventory structure identifier.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "state_code",
             "description": "Two-letter US Postal state abbreviation (NC, NY, MA, PA, DC, MD).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "state_name",
             "description": "Full US state or district name.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "facility_carried",
             "description": "Highway, rail line, or corridor carried by the bridge (FHWA Item 007).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "feature_intersected",
             "description": "River, creek, railway, or roadway crossed by the structure (FHWA Item 006A).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "location_desc",
             "description": "Official FHWA location reference relative to nearest junction or landmark (Item 009).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "latitude",
             "description": "WGS84 bridge latitude converted from FHWA NBI Item 016 DMS coordinates.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "longitude",
             "description": "WGS84 bridge longitude converted from FHWA NBI Item 017 DMS coordinates.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "year_built",
             "description": "Original construction year of the bridge span (FHWA Item 027).",
-            "type": "Integer"
+            "type": "numeric"
           },
           {
             "name": "bridge_condition",
             "description": "FHWA structural condition rating code (G=Good, F=Fair, P=Poor).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "has_clearance_restriction",
             "description": "True when the span has a measured overhead vertical clearance limit below 20 meters.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "min_vertical_clearance_m",
             "description": "Minimum vertical clearance in meters across FHWA Items 054B, 053, and 010 (-1.0 if unrestricted).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "min_vertical_clearance_ft",
             "description": "Minimum vertical clearance converted to decimal feet (-1.0 if unrestricted).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "posted_Imperial_sign",
             "description": "Formatted Imperial highway clearance sign string in feet and inches (e.g., 12'-4\").",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "operating_rating_metric_tons",
             "description": "Maximum permissible gross live load rating in metric tons (FHWA Item 064).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "inventory_rating_metric_tons",
             "description": "Sustained inventory load rating in metric tons (FHWA Item 066).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "max_span_len_m",
             "description": "Length of the longest individual span in meters (FHWA Item 048).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "structure_len_m",
             "description": "Total bridge structure length in meters (FHWA Item 049).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "average_daily_traffic",
             "description": "Average Daily Traffic (ADT) vehicle count across the structure (FHWA Item 029).",
-            "type": "Integer"
+            "type": "numeric"
           },
           {
             "name": "truck_traffic_pct",
             "description": "Percentage of Average Daily Traffic consisting of commercial trucks (FHWA Item 109).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "scour_critical_code",
             "description": "Official FHWA Item 113 underwater pier-scour evaluation code.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "is_scour_critical",
             "description": "True if FHWA Item 113 code is in {0, 1, 2, 3}, indicating scour-critical bridge piers.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "strike_risk_tier",
             "description": "Categorical vertical-clearance truck-strike hazard tier (EXTREME_STRIKE_TRAP, HIGH_STRIKE_RISK, MODERATE_CLEARANCE, UNRESTRICTED_HEIGHT).",
-            "type": "String"
+            "type": "string"
           }
         ]
       }
@@ -151,72 +151,72 @@
           {
             "name": "osm_feature_id",
             "description": "OpenStreetMap way/node feature ID or verified landmark identifier.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "country",
             "description": "Country where the low-clearance bridge or underpass is located.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "corridor_name",
             "description": "Metropolitan freight or commuter corridor name.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "road_name",
             "description": "Street, parkway, or railway overbridge name from OpenStreetMap tags.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "highway_class",
             "description": "OpenStreetMap highway or railway functional classification.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "latitude",
             "description": "WGS84 latitude of the low-clearance bridge or tunnel portal.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "longitude",
             "description": "WGS84 longitude of the low-clearance bridge or tunnel portal.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "raw_maxheight_tag",
             "description": "Verbatim OpenStreetMap maxheight or maxheight:physical tag string.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "sign_unit_system",
             "description": "Detected roadside sign unit system (IMPERIAL_SIGN for ft-in, METRIC_SIGN for meters).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "clearance_m",
             "description": "Standardized physical vertical clearance in meters.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "clearance_ft",
             "description": "Standardized physical vertical clearance in decimal feet.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "imperial_equivalent",
             "description": "Equivalent feet-and-inches clearance notation for cross-unit comparison.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "maxweight_tag",
             "description": "Posted OpenStreetMap maxweight restriction tag if present, else unposted.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "strike_severity",
             "description": "Truck-strike hazard severity class based on metric vertical clearance.",
-            "type": "String"
+            "type": "string"
           }
         ]
       }
@@ -229,52 +229,52 @@
           {
             "name": "site_id",
             "description": "Official 8-digit USGS National Water Information System (NWIS) monitoring station code.",
-            "type": "Integer"
+            "type": "numeric"
           },
           {
             "name": "station_name",
             "description": "River basin and hydrologic station description.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "state_code",
             "description": "Two-letter US state or district code for the river gauge.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "latitude",
             "description": "WGS84 latitude of the USGS stream gauge.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "longitude",
             "description": "WGS84 longitude of the USGS stream gauge.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "timestamp_iso",
             "description": "ISO-8601 observation timestamp from 15-minute USGS instantaneous telemetry.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "gage_height_ft",
             "description": "Measured river stage height in feet (USGS parameter 00065).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "gage_height_m",
             "description": "Measured river stage height converted to meters.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "discharge_cfs",
             "description": "Measured river volumetric flow rate in cubic feet per second (USGS parameter 00060).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "discharge_cms",
             "description": "Measured river volumetric flow rate converted to cubic meters per second (m3/s).",
-            "type": "Decimal"
+            "type": "numeric"
           }
         ]
       }
@@ -287,62 +287,62 @@
           {
             "name": "corridor_id",
             "description": "Unique global bridge corridor hydrometeorological identifier.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "corridor_name",
             "description": "Name of the monitored international bridge and river/wind corridor.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "country",
             "description": "Country of the monitored corridor (US, UK, Pakistan, Azerbaijan).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "latitude",
             "description": "WGS84 corridor latitude.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "longitude",
             "description": "WGS84 corridor longitude.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "date",
             "description": "Calendar date (UTC) in YYYY-MM-DD format across reanalysis and forecast window.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "glofas_river_discharge_cms",
             "description": "Copernicus GloFAS daily mean river discharge in cubic meters per second.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "glofas_river_discharge_max_cms",
             "description": "Copernicus GloFAS ensemble maximum river discharge in cubic meters per second.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "daily_precipitation_mm",
             "description": "Open-Meteo daily accumulated precipitation in millimeters.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "max_wind_speed_kmh",
             "description": "Maximum 10-meter sustained wind speed in kilometers per hour.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "max_wind_gust_kmh",
             "description": "Maximum 10-meter wind gust speed in kilometers per hour.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "high_sided_truck_wind_alert",
             "description": "True if wind gusts reach >= 65 km/h rollover speed-clamp threshold for high-sided trucks.",
-            "type": "Boolean"
+            "type": "boolean"
           }
         ]
       }
@@ -355,134 +355,130 @@
           {
             "name": "scenario_id",
             "description": "Unique benchmark evaluation scenario ID (SCEN-001 through SCEN-080).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "corridor_code",
             "description": "Monitored bridge corridor identifier (BRG-001 through BRG-008).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "bridge_name",
             "description": "Full name of the target bridge or underpass.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "bridge_lat",
             "description": "WGS84 latitude of the bridge.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "bridge_lon",
             "description": "WGS84 longitude of the bridge.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "posted_clearance_m",
             "description": "Posted vertical clearance in meters (-1.0 if unrestricted).",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "posted_clearance_imperial",
             "description": "Posted vertical clearance in Imperial feet-and-inches notation.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "operating_limit_tons",
             "description": "Maximum operating gross vehicle weight limit in metric tons.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "scour_critical_foundation",
             "description": "True if the bridge has an FHWA Item 113 scour-critical pier foundation.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "vehicle_class",
             "description": "Commercial freight or municipal emergency vehicle profile.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "vehicle_height_m",
             "description": "True physical vehicle height in meters.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "driver_declared_height",
             "description": "Driver-entered height string (Imperial ft-in) used to test unit-conversion guardrails.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "vehicle_gross_tons",
             "description": "Approaching vehicle gross weight in metric tons.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "weather_regime",
             "description": "Environmental telemetry regime (NOMINAL vs SEVERE_FLOOD_SCOUR_AND_GUST).",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "river_stage_surge_m",
             "description": "River stage rise above baseline in meters.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "wind_gust_kmh",
             "description": "Bridge deck crosswind gust speed in kilometers per hour.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "osrm_primary_route_km",
             "description": "Real OSRM driving distance in kilometers through the primary bridge.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "osrm_safe_detour_km",
             "description": "Real OSRM driving distance in kilometers via the verified high-clearance/high-load bypass.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "detour_extra_km",
             "description": "Additional distance in kilometers incurred by taking the safe truck detour.",
-            "type": "Decimal"
+            "type": "numeric"
           },
           {
             "name": "height_strike_interlock",
             "description": "Ground-truth boolean for whether the overheight + 0.15m bounce interlock trips.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "weight_overload_interlock",
             "description": "Ground-truth boolean for whether the operating tonnage interlock trips.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "pier_scour_interlock",
             "description": "Ground-truth boolean for whether the pier flood-scour bridge closure interlock trips.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "crosswind_speed_interlock",
             "description": "Ground-truth boolean for whether the >= 65 km/h crosswind 50 km/h speed clamp trips.",
-            "type": "Boolean"
+            "type": "boolean"
           },
           {
             "name": "gold_dispatch_decision",
             "description": "Ground-truth safety dispatch verdict expected from the agent harness.",
-            "type": "String"
+            "type": "string"
           },
           {
             "name": "engineering_trap_note",
             "description": "Explanation of the specific unit-conversion, structural load, or hydraulic scour failure mode tested.",
-            "type": "String"
+            "type": "string"
           }
         ]
       }
-    },
-    {
-      "path": "dataset_provenance_summary.json",
-      "description": "Machine-readable provenance manifest listing upstream public data agencies, API endpoints, and verified record counts."
     }
   ]
 }

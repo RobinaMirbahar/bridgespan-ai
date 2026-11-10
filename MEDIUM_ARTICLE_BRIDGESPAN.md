@@ -1,10 +1,10 @@
-# Why Trucks Keep Hitting 11-Foot-8 Bridges — And How I Built BridgeSpan AI with Gemma 4 & Google ADK to Stop Them
+# Why Trucks Keep Hitting 11-Foot-8 Bridges: How I Built BridgeSpan AI with Gemma 4 & Google ADK to Stop Them
 
 ### How I combined open-weights Gemma 4, Google ADK, OSRM heavy-truck routing, and 4,809 real FHWA & OpenStreetMap bridges into a mobile-responsive physical safety platform
 
 ![BridgeSpan AI Cover Banner](https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_banner.jpg)
 
-**By Robina Mirbahar** — *AI/ML Google Developer Expert (GDE) | Google Cloud Champion Innovator*
+**By Robina Mirbahar** (*AI/ML Google Developer Expert | Google Cloud Champion Innovator*)
 
 - **Live Mobile-Responsive App:** https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/
 - **GitHub Open-Source Repository:** https://github.com/RobinaMirbahar/bridgespan-ai
@@ -17,15 +17,15 @@ Everyone has seen the viral clips of box trucks and 53-foot semi-trailers gettin
 
 Behind the internet memes sits one of transportation engineering's costliest failure modes:
 
-- **Thousands of low-clearance bridge strikes** happen every single year across the US, UK, Europe, and Australia—halting rail corridors and costing millions in structural steel repairs.
-- **Hydraulic pier scour during flash floods** is the **#1 cause of highway bridge collapse in the United States** (accounting for over half of bridge failures tracked under FHWA Item 113).
+- **Thousands of low-clearance bridge strikes** happen every single year across the US, UK, Europe, and Australia, halting rail corridors and costing millions in structural steel repairs.
+- **Hydraulic pier scour during flash floods** is the **#1 cause of highway bridge collapse in the United States**, accounting for over half of bridge failures tracked in the [US DOT FHWA National Bridge Inventory (Item 113)](https://www.fhwa.dot.gov/bridge/nbi.cfm) and [HEC-18 Evaluating Scour at Bridges](https://www.fhwa.dot.gov/engineering/hydraulics/library_arc.cfm?pub_number=17).
 - **Silent axle-load violations** occur daily when 42-ton mobile cranes or 34.5-ton freight haulers follow consumer GPS routes onto 15-ton parkway arches or 22.5-ton historic river trusses.
 
 When you ask a raw LLM navigation assistant *"Can my 13'-6" trailer clear that 3.89 m underpass?"*, a single unit-conversion hallucination turns into twisted steel.
 
-To solve this properly, I built and open-sourced **BridgeSpan AI**—a mobile-responsive fleet and civil-infrastructure safety platform powered by **Google's open-weights Gemma 4**, **Google Agent Development Kit (ADK)**, **OSRM heavy-truck routing**, and **4,809 real bridges** collected from the 2024 US DOT FHWA National Bridge Inventory, OpenStreetMap, USGS river gauges, and Copernicus GloFAS.
+To solve this properly, I built and open-sourced **BridgeSpan AI**, a mobile-responsive fleet and civil-infrastructure safety platform powered by [Google Gemma 4](https://ai.google.dev/gemma/docs), the [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/), [OSRM heavy-truck routing](https://project-osrm.org/docs/v5.24.0/api/), and **4,809 real bridges** collected from the 2024 US DOT FHWA National Bridge Inventory, OpenStreetMap, USGS river gauges, and Copernicus GloFAS.
 
-![BridgeSpan AI Live Console](https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_console_live.jpg)
+![BridgeSpan AI Live Mobile-Responsive Console](https://raw.githubusercontent.com/RobinaMirbahar/bridgespan-ai/main/assets/bridgespan_console_live.jpg)
 
 ---
 
@@ -34,21 +34,21 @@ To solve this properly, I built and open-sourced **BridgeSpan AI**—a mobile-re
 When I benchmarked standard prompts against real heavy-freight scenarios, three failure modes stood out immediately:
 
 1. **Imperial (`ft-in`) vs. Metric (`m`) Arithmetic Traps:** North American trailers declare height in feet and inches (`13'-6"` = `4.115 m`), whereas urban overpasses across Europe, Australia, Azerbaijan, and Pakistan post metric signs (`3.95 m` or `3.0 m`). Safe highway engineering also requires a mandatory **`0.15 m` (6-inch) dynamic suspension bounce and repaving buffer**.
-2. **Height-Only Blindness to Structural Mass:** A compact `12'-0"` mobile crane (`42.0 metric tons`) easily clears a `14'-2"` historic truss vertically—even when the span's **FHWA Item 064 Operating Rating** is capped at `22.5 metric tons`.
+2. **Height-Only Blindness to Structural Mass:** A compact `12'-0"` mobile crane (`42.0 metric tons`) easily clears a `14'-2"` historic truss vertically, even when the span's **FHWA Item 064 Operating Rating** is capped at `22.5 metric tons`.
 3. **Invisible Underwater Pier Scour:** During a storm surge, a bridge deck looks completely normal on consumer maps while fast-moving floodwater scours sediment out from under **FHWA Item 113 scour-critical** piers.
 
 ---
 
 ## My Architecture: Gemma 4 Orchestration + 4 Deterministic Hard Gates
 
-In safety-critical engineering, an AI model should orchestrate tools and communicate clearly with operators—never improvise structural physics in token space.
+In safety-critical engineering, an AI model should orchestrate tools and communicate clearly with operators, never improvise structural physics in token space.
 
 In **BridgeSpan AI**, every dispatch passes through four deterministic Python safety gates inside `bridgespan_agent/guardrails.py`:
 
-- **Gate 1 — Overhead Clearance Interlock:** Deterministically parses `"13'-6\""`, `"12ft 4in"`, `"3.89 m"`, or `"389 cm"` into exact meters, adds the `0.15 m` suspension bounce buffer, and blocks the route if effective height exceeds posted clearance.
-- **Gate 2 — Axle Load Interlock:** Compares gross vehicle tonnage against **FHWA Item 064** maximum operating rating.
-- **Gate 3 — Flood Pier-Scour Closure:** Automatically locks **FHWA Item 113** scour-critical spans whenever live **USGS 15-minute river stage surge** reaches `>= +1.80 m`.
-- **Gate 4 — Crosswind Rollover Protection:** Clamps high-sided trailers to `50 km/h` when live deck crosswind gusts reach `>= 65 km/h` (such as Caspian *Khazri* gales in Baku).
+- **Gate 1 (Overhead Clearance Interlock):** Deterministically parses `"13'-6\""`, `"12ft 4in"`, `"3.89 m"`, or `"389 cm"` into exact meters, adds the `0.15 m` suspension bounce buffer, and blocks the route if effective height exceeds posted clearance.
+- **Gate 2 (Axle Load Interlock):** Compares gross vehicle tonnage against **FHWA Item 064** maximum operating rating.
+- **Gate 3 (Flood Pier-Scour Closure):** Automatically locks **FHWA Item 113** scour-critical spans whenever live **USGS 15-minute river stage surge** reaches `>= +1.80 m`.
+- **Gate 4 (Crosswind Rollover Protection):** Clamps high-sided trailers to `50 km/h` when live deck crosswind gusts reach `>= 65 km/h` (such as Caspian *Khazri* gales in Baku).
 
 ```python
 if scour_tripped:          # Item 113 scour-critical pier + >= 1.80 m river stage surge
@@ -69,6 +69,16 @@ else:
 
 ---
 
+## Freight Decarbonization Impact (Carbone 4 & GLEC Alignment)
+
+Preventing bridge strikes and corridor closures also cuts heavy-transport emissions. In line with freight decarbonization methodologies from [Carbone 4](https://www.carbone4.com/en) and the [Smart Freight Centre GLEC Framework (ISO 14083)](https://www.smartfreightcentre.org/en/how-to-implement-items/what-is-glec-framework/):
+
+- A single bridge strike stalls arterial highways for hours, trapping hundreds of diesel trucks (`~0.85 to 1.10 kg CO2e per km`) in congested idling.
+- Deterministic pre-trip OSRM bypass routing adds roughly `1.1 km` on a clear arterial instead of `15+ km` emergency reversals and heavy-wrecking recovery, while avoiding the embodied carbon of steel girder replacement.
+- Running [Gemma 4](https://ai.google.dev/gemma/docs) with scale-to-zero serverless containers on [Google Cloud Run](https://cloud.google.com/run/docs) keeps idle compute consumption at zero.
+
+---
+
 ## Assembling a 100% Real Global Dataset (Published on Kaggle)
 
 Rather than testing on synthetic toy numbers, I built an automated ingestion pipeline (`collect_bridgespan_dataset.py`) pulling directly from five authoritative public sources:
@@ -83,17 +93,17 @@ Rather than testing on synthetic toy numbers, I built an automated ingestion pip
 
 ## Designing a Mobile-Responsive Fleet Safety Experience
 
-Dispatchers sit in front of widescreen monitors, while field supervisors and drivers check routes on smartphones. Inspired by modern fleet telematics tools like Samsara, Hammer, and BridgeWatch, I built the Streamlit frontend (`app.py`) to work cleanly on both desktop and mobile:
+Dispatchers sit in front of widescreen monitors, while field supervisors and drivers check routes on smartphones. I built the Streamlit frontend (`app.py`) to work cleanly on both desktop and mobile:
 
 - **1-Tap Real-World Scenario Presets** for Durham's `11-Foot-8+8` strike trap, Potomac river scour, a `42 t` crane overload, and Baku `78 km/h` crosswinds.
-- **Overhead Highway LED Gantry Sign + Visual Progress Bars** showing exact clearance margin, load percentage, river surge, and safe detour distance—with zero developer JSON clutter.
+- **Overhead Highway LED Gantry Sign + Visual Progress Bars** showing exact clearance margin, load percentage, river surge, and safe detour distance with zero raw JSON debug clutter.
 - **Keyless Dark OpenStreetMap + OSRM Vector Routing** rendering blocked spans in dashed crimson and verified truck detours in emerald green.
 
 ---
 
 ## Deploy Serverlessly on Google Cloud Run in One Command
 
-Because the repository ships with a production `Dockerfile`, deploying **BridgeSpan AI** to **Google Cloud Run** with scale-to-zero (`$0` idle cost) takes one command:
+Because the repository ships with a production `Dockerfile`, deploying **BridgeSpan AI** to [Google Cloud Run](https://cloud.google.com/run/docs) with scale-to-zero (`$0` idle cost) takes one command:
 
 ```bash
 gcloud run deploy bridgespan-ai \
@@ -102,6 +112,22 @@ gcloud run deploy bridgespan-ai \
   --allow-unauthenticated \
   --min-instances 0
 ```
+
+---
+
+## Official Documentation & References
+
+- **Google Gemma 4 Documentation:** https://ai.google.dev/gemma/docs
+- **Google Agent Development Kit (ADK):** https://google.github.io/adk-docs/
+- **Google Cloud Run Documentation:** https://cloud.google.com/run/docs
+- **US DOT FHWA National Bridge Inventory (NBI):** https://www.fhwa.dot.gov/bridge/nbi.cfm
+- **FHWA HEC-18 Evaluating Scour at Bridges:** https://www.fhwa.dot.gov/engineering/hydraulics/library_arc.cfm?pub_number=17
+- **USGS Water Services API:** https://waterservices.usgs.gov/
+- **Copernicus GloFAS & Open-Meteo Flood API:** https://open-meteo.com/en/docs/flood-api
+- **OpenStreetMap `maxheight` Specification:** https://wiki.openstreetmap.org/wiki/Key:maxheight
+- **OSRM HTTP Routing API:** https://project-osrm.org/docs/v5.24.0/api/
+- **Carbone 4 Low-Carbon Freight & Infrastructure Resilience:** https://www.carbone4.com/en
+- **Smart Freight Centre GLEC Framework (ISO 14083):** https://www.smartfreightcentre.org/
 
 ---
 

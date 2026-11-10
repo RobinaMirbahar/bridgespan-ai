@@ -1,11 +1,11 @@
-# 🌉 BridgeSpan AI — Global Truck Bridge-Strike, Load & Flood-Scour Safety Platform
+# 🌉 BridgeSpan AI: Global Truck Bridge-Strike, Load & Flood-Scour Safety Platform
 
 ![BridgeSpan AI Cover](assets/bridgespan_banner.jpg)
 
 [![Live Streamlit App](https://img.shields.io/badge/Live_App-Streamlit_Cloud-FF4B4B?logo=streamlit&logoColor=white)](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)
 [![Google ADK](https://img.shields.io/badge/Google_ADK-Agent_Framework-4285F4?logo=google)](https://google.github.io/adk-docs/)
-[![Gemma 4](https://img.shields.io/badge/Model-Gemma_4_(Open_Weights)-0F9D58?logo=googlecloud)](https://ai.google.dev/gemma)
-[![Cloud Run](https://img.shields.io/badge/Deploy-Google_Cloud_Run-FFCA28?logo=googlecloud)](https://cloud.google.com/run)
+[![Gemma 4](https://img.shields.io/badge/Model-Gemma_4_(Open_Weights)-0F9D58?logo=googlecloud)](https://ai.google.dev/gemma/docs)
+[![Cloud Run](https://img.shields.io/badge/Deploy-Google_Cloud_Run-FFCA28?logo=googlecloud)](https://cloud.google.com/run/docs)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-4%2C809_Real_Bridges-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)
 [![Kaggle Notebook](https://img.shields.io/badge/Kaggle_Notebook-FHWA_NBI_%26_Scour_Starter-20BEFF?logo=kaggle)](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)
 
@@ -22,16 +22,16 @@
 
 ## 🚨 The Real-World Problem
 
-Every year across the United States, Europe, Australia, and Asia, thousands of commercial semi-trailers, double-deck box trucks, and buses slam into low-clearance bridges—most famously Durham's **`11-foot-8+8` ("Can Opener") rail trestle**, Boston's **Storrow Drive**, New York's **Hutchinson River Parkway stone arches**, and Melbourne's **Montague Street 3.0 m overpass**. Beyond overhead strikes, **hydraulic pier scour** during flash-flood surges is the **#1 cause of highway bridge collapse in the United States** (FHWA Item 113), while overweight cranes and freight haulers routinely overstress aging load-posted trusses.
+Every year across the United States, Europe, Australia, and Asia, thousands of commercial semi-trailers, double-deck box trucks, and buses slam into low-clearance bridges, most famously Durham's **`11-foot-8+8` ("Can Opener") rail trestle**, Boston's **Storrow Drive**, New York's **Hutchinson River Parkway stone arches**, and Melbourne's **Montague Street 3.0 m overpass**. Beyond overhead strikes, **hydraulic pier scour** during flash-flood surges is the **#1 cause of highway bridge collapse in the United States** ([FHWA Item 113 / HEC-18](https://www.fhwa.dot.gov/bridge/nbi.cfm)), while overweight cranes and freight haulers routinely overstress aging load-posted trusses.
 
 Raw LLM navigation assistants fail on physical bridge safety because they:
 1. Hallucinate arithmetic across **Imperial (`13'-6"`, `12'-4"`) vs. Metric (`3.89 m`, `3.0 m`)** roadside signs and omit mandatory **`0.15 m` (`6 in`)** dynamic suspension bounce buffers.
-2. Route heavy vehicles (`34.5 t`–`42.0 t`) across historic parkways or load-posted trusses (`15.0 t`–`22.5 t`).
+2. Route heavy vehicles (`34.5 t` to `42.0 t`) across historic parkways or load-posted trusses (`15.0 t` to `22.5 t`).
 3. Ignore live **USGS 15-minute river stage surges** acting on scour-critical bridge piers.
 
-I built **BridgeSpan AI** to solve this end-to-end—pairing **Google ADK + Gemma 4** with **4-gate deterministic civil-engineering safety interlocks**, **live OSRM heavy-truck detour geometry on a mobile-responsive dark Leaflet map**, and a **100% real multi-source benchmark dataset**.
+I built **BridgeSpan AI** to solve this end-to-end, pairing [Google ADK](https://google.github.io/adk-docs/) and [Gemma 4](https://ai.google.dev/gemma/docs) with **4-gate deterministic civil-engineering safety interlocks**, **live OSRM heavy-truck detour geometry on a mobile-responsive dark Leaflet map**, and a **100% real multi-source benchmark dataset**.
 
-![BridgeSpan AI Live Console](assets/bridgespan_console_live.jpg)
+![BridgeSpan AI Live Mobile-Responsive Console](assets/bridgespan_console_live.jpg)
 
 ---
 
@@ -53,15 +53,23 @@ flowchart TD
 
 ## 📊 100% Real Multi-Source Dataset (`dataset/`)
 
-All 5 CSV tables in `dataset/` were collected directly from authoritative public civil & hydrological APIs via `collect_bridgespan_dataset.py`:
+All 5 CSV tables in `dataset/` were collected directly from authoritative public civil and hydrological APIs via `collect_bridgespan_dataset.py`:
 
 | File | Rows | Real Upstream Source |
 | :--- | ---: | :--- |
-| `fhwa_nbi_2024_hazard_bridges.csv` | **4,500** | Official 2024 US DOT **FHWA National Bridge Inventory (NBI)** (`NC`, `NY`, `MA`, `PA`, `DC`, `MD`) |
-| `osm_global_low_clearance_bridges.csv` | **309** | **OpenStreetMap Overpass API** global `maxheight` bridges (`US`, `UK`, `AU`, `PK`, `AZ`) |
-| `usgs_live_river_scour_telemetry.csv` | **1,436** | **USGS NWIS** 15-minute instantaneous river stage (`00065`) & discharge (`00060`) |
-| `global_glofas_flood_and_wind_daily.csv` | **360** | **Copernicus GloFAS** river discharge + **Open-Meteo** wind gusts & precipitation |
-| `bridgespan_dispatch_benchmark_80.csv` | **80** | Verified 80-scenario heavy-truck benchmark with real **OSRM** primary vs. safe bypass distances |
+| `fhwa_nbi_2024_hazard_bridges.csv` | **4,500** | Official 2024 US DOT [FHWA National Bridge Inventory (NBI)](https://www.fhwa.dot.gov/bridge/nbi.cfm) (`NC`, `NY`, `MA`, `PA`, `DC`, `MD`) |
+| `osm_global_low_clearance_bridges.csv` | **309** | [OpenStreetMap Overpass API](https://wiki.openstreetmap.org/wiki/Key:maxheight) global `maxheight` bridges (`US`, `UK`, `AU`, `PK`, `AZ`) |
+| `usgs_live_river_scour_telemetry.csv` | **1,436** | [USGS NWIS](https://waterservices.usgs.gov/) 15-minute instantaneous river stage (`00065`) & discharge (`00060`) |
+| `global_glofas_flood_and_wind_daily.csv` | **360** | [Copernicus GloFAS](https://open-meteo.com/en/docs/flood-api) river discharge + Open-Meteo wind gusts & precipitation |
+| `bridgespan_dispatch_benchmark_80.csv` | **80** | Verified 80-scenario heavy-truck benchmark with real [OSRM](https://project-osrm.org/docs/v5.24.0/api/) primary vs. safe bypass distances |
+
+---
+
+## 🌱 Freight Decarbonization Alignment (Carbone 4 & GLEC)
+
+Aligned with heavy-mobility decarbonization methodologies from [Carbone 4](https://www.carbone4.com/en) and the [Smart Freight Centre GLEC Framework (ISO 14083)](https://www.smartfreightcentre.org/):
+- Preventing low-clearance strikes avoids multi-hour highway congestion idling (`~0.85 to 1.10 kg CO2e/km` per stalled heavy truck) and steel girder replacement embodied carbon.
+- Deploying open-weights **Gemma 4** on **Google Cloud Run** with `--min-instances 0` eliminates idle cloud compute emissions.
 
 ---
 
