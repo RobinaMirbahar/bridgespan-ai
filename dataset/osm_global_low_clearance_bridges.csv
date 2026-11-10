@@ -1,0 +1,310 @@
+osm_feature_id,country,corridor_name,road_name,highway_class,latitude,longitude,raw_maxheight_tag,sign_unit_system,clearance_m,clearance_ft,imperial_equivalent,maxweight_tag,strike_severity
+LANDMARK-11FT8,United States,Durham / Raleigh NC,S Gregson St Norfolk Southern Rail Trestle ('11-Foot-8+8 Can Opener'),secondary,35.998503,-78.907231,"12'4""",IMPERIAL_SIGN,3.76,12.33,"12'-4""",36t,CRITICAL_LOW_BRIDGE
+LANDMARK-MONTAGUE,Australia,Melbourne Montague St Corridor,Montague Street Light Rail Overpass (South Melbourne),secondary,-37.82916,144.94885,3.0 m,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N27334600,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.536256,-0.190725,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N245801562,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.508192,0.044927,4.3,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-N245801563,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.508102,0.045228,4.3,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-N269138170,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.536647,0.00788,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N301014982,United Kingdom,Greater London Rail Overbridges,St John's Wood Car Park,road,51.534215,-0.173169,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N322959326,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.485668,-0.096003,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-N322979546,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.483032,-0.095638,4.4,METRIC_SIGN,4.4,14.44,"14'-5""",unposted,STANDARD_CLEARANCE
+OSM-N332789174,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.541635,-0.109193,2.31,METRIC_SIGN,2.31,7.58,"7'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N332789713,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.541954,-0.10689,3.05,METRIC_SIGN,3.05,10.01,"10'-0""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N336260353,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.557908,-0.117162,2.3,METRIC_SIGN,2.3,7.55,"7'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N368044118,United Kingdom,Greater London Rail Overbridges,Baynard House Car Park,road,51.511847,-0.100095,1.85,METRIC_SIGN,1.85,6.07,"6'-1""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N742961486,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.516089,-0.144844,1.95,METRIC_SIGN,1.95,6.4,"6'-5""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N818636127,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.548054,-0.249465,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N1252100784,United Kingdom,Greater London Rail Overbridges,Mitre Bridge,level_crossing,51.527408,-0.236453,"16'6""",IMPERIAL_SIGN,5.03,16.5,"16'-6""",unposted,STANDARD_CLEARANCE
+OSM-N1262613029,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.543469,-0.153322,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N1360237597,United Kingdom,Greater London Rail Overbridges,QPark Knightsbridge,road,51.499868,-0.157253,1.83,METRIC_SIGN,1.83,6.0,"6'-0""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N1440910031,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.544332,-0.005185,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N1643721360,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.571109,-0.107667,4.35,METRIC_SIGN,4.35,14.27,"14'-3""",unposted,STANDARD_CLEARANCE
+OSM-N1658289059,United Kingdom,Greater London Rail Overbridges,Mitre Bridge,level_crossing,51.527403,-0.236515,"16'6""",IMPERIAL_SIGN,5.03,16.5,"16'-6""",unposted,STANDARD_CLEARANCE
+OSM-N2001839835,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.54433,-0.005023,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2014156822,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,toll_gantry,51.509806,-0.006871,4.7,METRIC_SIGN,4.7,15.42,"15'-5""",unposted,STANDARD_CLEARANCE
+OSM-N2135411292,United Kingdom,Greater London Rail Overbridges,CitiPark London Barbican,road,51.518448,-0.097391,1.98,METRIC_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2476562671,United Kingdom,Greater London Rail Overbridges,Orange Car Park Entrance East,road,51.509144,0.03035,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",3.5,CRITICAL_LOW_BRIDGE
+OSM-N2955167668,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.474214,-0.067546,3,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2955167672,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.474241,-0.06776,3.5,METRIC_SIGN,3.5,11.48,"11'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2955167677,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.474281,-0.068013,3,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2955167684,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.474295,-0.068161,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2955178736,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.474447,-0.067685,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N3479105774,United Kingdom,Greater London Rail Overbridges,Chesterfield House Car Park,road,51.507171,-0.149897,1.98,METRIC_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N3479105775,United Kingdom,Greater London Rail Overbridges,Chesterfield House Car Park,road,51.507228,-0.14985,1.98,METRIC_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N3839064068,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.573093,-0.059372,2.3,METRIC_SIGN,2.3,7.55,"7'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4136817818,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.428517,-0.190273,2.4,METRIC_SIGN,2.4,7.87,"7'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4355811097,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.531132,-0.216473,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4355811142,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.53146,-0.215184,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4558469219,United Kingdom,Greater London Rail Overbridges,Curnock Estate Car Park,road,51.53779,-0.138883,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4665352260,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,elevator,51.512247,-0.107845,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4665352261,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,elevator,51.512286,-0.107845,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N4709189403,United Kingdom,Greater London Rail Overbridges,QPark Soho,road,51.514236,-0.137153,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5347212561,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.512014,0.045947,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5356985573,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.551405,-9.2e-05,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5363411166,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.428012,-0.032489,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-N5471777303,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.540803,0.008733,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5823971247,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.54553,0.015155,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5853572844,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.539306,0.034049,"6'6""",IMPERIAL_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5853572851,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.539254,0.03383,"6'6""",IMPERIAL_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5998125869,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.511186,-0.031332,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N6681801201,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.54907,0.008828,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6681801202,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.549053,0.008831,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6701012872,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.549952,0.01271,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6832885573,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.476935,-0.031407,2.6,METRIC_SIGN,2.6,8.53,"8'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6918421508,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.508775,-0.080478,1.98,METRIC_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6939535095,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.516338,-0.247691,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N7077383346,United Kingdom,Greater London Rail Overbridges,Decathlon Car Park,road,51.498052,-0.046368,"6'2""",IMPERIAL_SIGN,1.88,6.17,"6'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7112719379,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.493144,-0.166645,8'10,IMPERIAL_SIGN,2.69,8.83,"8'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7564369532,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.498065,-0.046324,"6'2""",IMPERIAL_SIGN,1.88,6.17,"6'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7694973322,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.552839,-0.001421,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7764962880,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.488176,0.016582,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7793508153,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.546991,-0.012227,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7793508154,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.547362,-0.012726,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7829312700,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.547883,-0.006336,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7916462859,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.548103,-0.006634,2.4,METRIC_SIGN,2.4,7.87,"7'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7916462860,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.547992,-0.0076,2.4,METRIC_SIGN,2.4,7.87,"7'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7928702436,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.553016,0.003412,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7938316369,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.533864,0.018592,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7951830764,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.533501,0.015598,3,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8044482384,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.522747,-0.16489,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8108820783,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.550984,0.019073,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8111339555,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.552478,0.017744,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8116593402,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.540672,0.022764,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8142912720,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.542342,0.023415,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8145826318,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.53252,-0.172357,2.15,METRIC_SIGN,2.15,7.05,"7'-1""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8145826353,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.506455,-0.140425,2.13,METRIC_SIGN,2.13,6.99,"7'-0""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8201616200,United Kingdom,Greater London Rail Overbridges,Chelsea & Westminster Hospital Public Car Park,road,51.484738,-0.18064,1.95,METRIC_SIGN,1.95,6.4,"6'-5""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8344791000,United Kingdom,Greater London Rail Overbridges,London Dock Basement Parking,road,51.507928,-0.066612,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8412182170,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.462629,-0.112872,"12'9""",IMPERIAL_SIGN,3.89,12.76,"12'-9""",unposted,RESTRICTED_HGV
+OSM-N8430300248,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.462079,-0.190823,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8615233111,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.53729,0.005574,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8772828085,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.5065,-0.089611,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N8822231474,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.423399,-0.058592,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9136430550,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.49667,-0.101006,2.9,METRIC_SIGN,2.9,9.51,"9'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9367357536,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.545861,-0.012426,2.6,METRIC_SIGN,2.6,8.53,"8'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9440551035,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.557417,-0.013929,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9506696888,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.510264,-0.028877,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N9721776483,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.477551,0.051549,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9721776484,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.478085,0.051937,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9740496252,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.563015,-0.18056,"6'6""",IMPERIAL_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9750224034,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.445516,0.005784,4.4,METRIC_SIGN,4.4,14.44,"14'-5""",unposted,STANDARD_CLEARANCE
+OSM-N9750224035,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.445395,0.005362,4.4,METRIC_SIGN,4.4,14.44,"14'-5""",unposted,STANDARD_CLEARANCE
+OSM-N9817076566,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.538384,-0.006949,3.5,METRIC_SIGN,3.5,11.48,"11'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9839962654,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.53028,0.005268,4,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-N10076559074,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.516914,0.077037,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10076559075,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.516454,0.078523,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10076559076,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.515998,0.079875,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10100610124,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.48863,0.066558,2.35,METRIC_SIGN,2.35,7.71,"7'-9""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10141248303,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.54157,-0.008349,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10141248305,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.541603,-0.008399,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10203749397,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.509473,-0.026589,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10282592441,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.535905,-0.006252,2.3,METRIC_SIGN,2.3,7.55,"7'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10282592443,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.536237,-0.007276,2.4,METRIC_SIGN,2.4,7.87,"7'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10542989462,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.510529,-0.091172,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10542989463,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.510345,-0.090274,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10578654038,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.527188,-0.236721,"15'6""",IMPERIAL_SIGN,4.72,15.49,"15'-6""",unposted,STANDARD_CLEARANCE
+OSM-N10578654039,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.527357,-0.236124,"15'6""",IMPERIAL_SIGN,4.72,15.49,"15'-6""",unposted,STANDARD_CLEARANCE
+OSM-N10578919295,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.502377,-0.226799,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10578919296,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.502409,-0.226621,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10614660689,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.550336,-0.228121,"10'6""",IMPERIAL_SIGN,3.2,10.5,"10'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10614691655,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.550073,-0.228211,3.2,METRIC_SIGN,3.2,10.5,"10'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10763797816,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.49288,0.046527,2.6,METRIC_SIGN,2.6,8.53,"8'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10768169970,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.494807,0.039419,"6'6""",IMPERIAL_SIGN,1.98,6.5,"6'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10816357744,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.526139,-0.139965,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10841775560,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.509445,-0.026925,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N10841775561,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.509402,-0.026824,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-N11088729555,United Kingdom,Greater London Rail Overbridges,Urban Underpass / Bridge,road,51.515286,-0.108821,4.4,METRIC_SIGN,4.4,14.44,"14'-5""",unposted,STANDARD_CLEARANCE
+OSM-N588194269,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.814483,144.973456,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N767693475,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.804448,144.973402,2.15,METRIC_SIGN,2.15,7.05,"7'-1""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N767726006,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.803376,144.969863,2.15,METRIC_SIGN,2.15,7.05,"7'-1""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N767726026,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.803759,144.973514,2.15,METRIC_SIGN,2.15,7.05,"7'-1""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N2090588358,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.839292,144.925023,2.05,METRIC_SIGN,2.05,6.73,"6'-9""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N5058108333,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.823442,144.968079,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6876513544,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.812707,144.94006,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N6876513546,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.812692,144.940101,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7024743820,Australia,Melbourne Montague St Corridor,Care Park,road,-37.848111,144.992665,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N7986396071,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.811891,144.938599,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9075241775,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.830534,144.949958,3,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N9075241776,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.829199,144.948686,3,METRIC_SIGN,3.0,9.84,"9'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10598310136,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.81243,144.961248,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N10609269626,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.817689,144.992696,3.8,METRIC_SIGN,3.8,12.47,"12'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11045598248,Australia,Melbourne Montague St Corridor,Care Park,road,-37.847363,144.992718,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11182281878,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.819093,144.954583,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11254045888,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.808939,144.996049,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11466796105,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.814448,144.97368,1.95,METRIC_SIGN,1.95,6.4,"6'-5""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11466796106,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.814369,144.973953,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N11659062815,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.802363,144.964281,2.07,METRIC_SIGN,2.07,6.79,"6'-9""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N12259550887,Australia,Melbourne Montague St Corridor,Wilson Parking,road,-37.810322,144.960313,2.0,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N12482902432,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.810162,144.965889,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N12482907612,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.810035,144.966654,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N12511022481,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.814239,144.938559,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13020279629,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.822392,144.952376,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13286947895,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.821666,144.943588,4.2,METRIC_SIGN,4.2,13.78,"13'-9""",unposted,RESTRICTED_HGV
+OSM-N13805855965,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.812208,144.962975,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13859703740,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.816385,144.9594,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13859787508,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.815599,144.96258,2.4,METRIC_SIGN,2.4,7.87,"7'-10""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13866446586,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.81594,144.968574,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-N13871185394,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.812035,144.967101,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13893269805,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.815852,144.961681,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13915751405,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.810005,144.970512,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-N13931269132,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,road,-37.810089,144.9692,2.3,METRIC_SIGN,2.3,7.55,"7'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W4759024,Australia,Melbourne Montague St Corridor,CityLink,motorway_link,-37.833184,144.998018,4.65,METRIC_SIGN,4.65,15.26,"15'-3""",unposted,STANDARD_CLEARANCE
+OSM-W5234752,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.827153,144.961708,5.0,METRIC_SIGN,5.0,16.4,"16'-5""",unposted,STANDARD_CLEARANCE
+OSM-W5234946,Australia,Melbourne Montague St Corridor,West Gate In-Power Ramp Of,motorway_link,-37.827059,144.963203,5.3,METRIC_SIGN,5.3,17.39,"17'-5""",unposted,STANDARD_CLEARANCE
+OSM-W6867058,Australia,Melbourne Montague St Corridor,Racecourse Road,trunk,-37.787977,144.928399,3.7,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W8038199,Australia,Melbourne Montague St Corridor,Jolimont Road,primary,-37.816188,144.979107,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W8066124,Australia,Melbourne Montague St Corridor,CityLink,motorway,-37.826874,144.985147,4.6 m,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W8066126,Australia,Melbourne Montague St Corridor,CityLink,motorway,-37.825669,144.976217,4.6 m,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W8066129,Australia,Melbourne Montague St Corridor,CityLink In-Kings Ramp Of,motorway_link,-37.826305,144.967161,4.6 m,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W8950570,Australia,Melbourne Montague St Corridor,Racecourse Road,trunk,-37.788131,144.928982,3.7,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W12279349,Australia,Melbourne Montague St Corridor,Whiteman Street,tertiary,-37.823575,144.959511,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W13366394,Australia,Melbourne Montague St Corridor,Guests Lane,service,-37.814157,144.956809,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W13808373,Australia,Melbourne Montague St Corridor,Vere Street,residential,-37.802646,144.993883,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-W13859464,Australia,Melbourne Montague St Corridor,Sims Street,tertiary,-37.800644,144.9117,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W13859497,Australia,Melbourne Montague St Corridor,Sims Street,tertiary,-37.80058,144.911737,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W15857084,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.835725,144.972413,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W20920543,Australia,Melbourne Montague St Corridor,Greenwood Street,residential,-37.808293,144.992871,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W22739047,Australia,Melbourne Montague St Corridor,Evans Street,residential,-37.835916,144.93811,4.3,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-W22870551,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.800307,144.958799,3.1,METRIC_SIGN,3.1,10.17,"10'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W23051911,Australia,Melbourne Montague St Corridor,Garfield Street,residential,-37.811889,144.993877,3.7,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W23430780,Australia,Melbourne Montague St Corridor,Racecourse Road,trunk,-37.788969,144.938826,4.0,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W23907357,Australia,Melbourne Montague St Corridor,Albert Road,primary,-37.841796,144.959576,3.7 m,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W23909982,Australia,Melbourne Montague St Corridor,Southbank Boulevard,unclassified,-37.821241,144.962512,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W24474545,Australia,Melbourne Montague St Corridor,Queens Parade,secondary,-37.785122,144.995102,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W24474550,Australia,Melbourne Montague St Corridor,Queens Parade,secondary,-37.785197,144.995089,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W25687811,Australia,Melbourne Montague St Corridor,Flemington Road,primary,-37.787232,144.94018,5.3,METRIC_SIGN,5.3,17.39,"17'-5""",unposted,STANDARD_CLEARANCE
+OSM-W26431242,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.811366,144.952839,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W26619038,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.827926,144.962177,5.0,METRIC_SIGN,5.0,16.4,"16'-5""",unposted,STANDARD_CLEARANCE
+OSM-W26619050,Australia,Melbourne Montague St Corridor,CityLink,motorway,-37.826217,144.967187,4.6 m,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W27007196,Australia,Melbourne Montague St Corridor,Dudley Street,primary,-37.811962,144.945004,4.3 m,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-W27128331,Australia,Melbourne Montague St Corridor,CityLink,motorway,-37.832422,144.995544,4.65,METRIC_SIGN,4.65,15.26,"15'-3""",unposted,STANDARD_CLEARANCE
+OSM-W27462660,Australia,Melbourne Montague St Corridor,Village Street,unclassified,-37.819735,144.949884,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W27553186,Australia,Melbourne Montague St Corridor,Station Street,residential,-37.83778,144.937144,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W27880949,Australia,Melbourne Montague St Corridor,Hobsons Road,residential,-37.796112,144.915576,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W45367192,Australia,Melbourne Montague St Corridor,Punt Road,trunk,-37.828524,144.988087,6.0,METRIC_SIGN,6.0,19.69,"19'-8""",unposted,STANDARD_CLEARANCE
+OSM-W45814208,Australia,Melbourne Montague St Corridor,Maribyrnong Street,unclassified,-37.804641,144.907493,4.1,METRIC_SIGN,4.1,13.45,"13'-5""",unposted,RESTRICTED_HGV
+OSM-W46296475,Australia,Melbourne Montague St Corridor,William Street,tertiary,-37.819677,144.960219,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-W49454574,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.83124,144.918021,2.35,METRIC_SIGN,2.35,7.71,"7'-9""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W54035158,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.813116,144.990485,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-W55949161,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,cycleway,-37.802388,144.936237,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W69022509,Australia,Melbourne Montague St Corridor,Gipps Street,tertiary,-37.805105,144.993448,3.9,METRIC_SIGN,3.9,12.8,"12'-10""",unposted,RESTRICTED_HGV
+OSM-W71189431,Australia,Melbourne Montague St Corridor,City Road,trunk,-37.82082,144.968715,5.1,METRIC_SIGN,5.1,16.73,"16'-9""",unposted,STANDARD_CLEARANCE
+OSM-W71189432,Australia,Melbourne Montague St Corridor,City Road,trunk,-37.82076,144.968695,5.1,METRIC_SIGN,5.1,16.73,"16'-9""",unposted,STANDARD_CLEARANCE
+OSM-W92379004,Australia,Melbourne Montague St Corridor,Macaulay Road,tertiary,-37.794546,144.931036,3.7,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W92379006,Australia,Melbourne Montague St Corridor,Macaulay Road,tertiary,-37.794447,144.930192,3.7,METRIC_SIGN,3.7,12.14,"12'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W95465119,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.782096,144.916542,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W112933971,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.813233,144.958628,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W112933972,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.813451,144.960135,2.1,METRIC_SIGN,2.1,6.89,"6'-11""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W131708505,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.816022,144.983504,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W134620345,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.820679,144.957779,4.7,METRIC_SIGN,4.7,15.42,"15'-5""",unposted,STANDARD_CLEARANCE
+OSM-W134621261,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.821191,144.957969,4.7,METRIC_SIGN,4.7,15.42,"15'-5""",unposted,STANDARD_CLEARANCE
+OSM-W134621272,Australia,Melbourne Montague St Corridor,Spencer Street,primary,-37.821843,144.955536,4,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W134621274,Australia,Melbourne Montague St Corridor,Kings Way,trunk,-37.820636,144.957601,4.3,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-W134621885,Australia,Melbourne Montague St Corridor,Spencer Street,primary,-37.821401,144.955098,4 m,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W135951291,Australia,Melbourne Montague St Corridor,Dudley Street,primary,-37.811534,144.946385,4.3,METRIC_SIGN,4.3,14.11,"14'-1""",unposted,RESTRICTED_HGV
+OSM-W145108198,Australia,Melbourne Montague St Corridor,Napier Street,primary,-37.804158,144.901089,4,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W145108213,Australia,Melbourne Montague St Corridor,Napier Street,primary,-37.80409,144.900411,4,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W145366788,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.801092,144.901519,1.9,METRIC_SIGN,1.9,6.23,"6'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W154532562,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.84943,144.965336,2.2,METRIC_SIGN,2.2,7.22,"7'-3""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W177295977,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.798576,144.961228,2.25,METRIC_SIGN,2.25,7.38,"7'-5""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W198538939,Australia,Melbourne Montague St Corridor,Whiteman Street,tertiary,-37.823761,144.959315,4.6,METRIC_SIGN,4.6,15.09,"15'-1""",unposted,STANDARD_CLEARANCE
+OSM-W198715023,Australia,Melbourne Montague St Corridor,Flinders Street,primary,-37.820985,144.95503,4.2,METRIC_SIGN,4.2,13.78,"13'-9""",unposted,RESTRICTED_HGV
+OSM-W198715024,Australia,Melbourne Montague St Corridor,Flinders Street,primary,-37.82127,144.954778,4,METRIC_SIGN,4.0,13.12,"13'-1""",unposted,RESTRICTED_HGV
+OSM-W198994161,Australia,Melbourne Montague St Corridor,City Road,primary,-37.830755,144.954451,3.8,METRIC_SIGN,3.8,12.47,"12'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W198994162,Australia,Melbourne Montague St Corridor,City Road,primary,-37.825975,144.959946,4.65,METRIC_SIGN,4.65,15.26,"15'-3""",unposted,STANDARD_CLEARANCE
+OSM-W199009650,Australia,Melbourne Montague St Corridor,Hoddle Street,primary,-37.787827,144.995139,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W199652635,Australia,Melbourne Montague St Corridor,Dynon Road,primary,-37.801712,144.91677,4.4,METRIC_SIGN,4.4,14.44,"14'-5""",unposted,STANDARD_CLEARANCE
+OSM-W203430501,Australia,Melbourne Montague St Corridor,Urban Underpass / Bridge,service,-37.824224,144.95669,5.1,METRIC_SIGN,5.1,16.73,"16'-9""",unposted,STANDARD_CLEARANCE
+OSM-W206104866,Australia,Melbourne Montague St Corridor,Flemington Road,trunk_link,-37.787814,144.940302,5.3,METRIC_SIGN,5.3,17.39,"17'-5""",unposted,STANDARD_CLEARANCE
+OSM-N1462426156,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,level_crossing,40.401438,49.886963,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N1760944084,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,level_crossing,40.401473,49.886921,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N1760944155,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,level_crossing,40.404542,49.892837,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N2556890840,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,level_crossing,40.40448,49.892919,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-N2556901488,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,level_crossing,40.401412,49.887001,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W27638811,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.441498,50.007647,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W32616383,Azerbaijan,Baku Transit & Rail Overpasses,Əbdülvahab Salamzadə küçəsi,primary,40.402419,49.81918,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W116329446,Azerbaijan,Baku Transit & Rail Overpasses,Tbilisi prospekti,primary,40.397311,49.814077,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W116329450,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary_link,40.397538,49.814617,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W116329452,Azerbaijan,Baku Transit & Rail Overpasses,Tbilisi prospekti,primary,40.397155,49.81407,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W116329455,Azerbaijan,Baku Transit & Rail Overpasses,Əbdülvahab Salamzadə küçəsi,primary,40.402354,49.819302,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W116338017,Azerbaijan,Baku Transit & Rail Overpasses,M1,trunk,40.411073,49.803429,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W117600064,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary_link,40.396716,49.8138,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W128721991,Azerbaijan,Baku Transit & Rail Overpasses,Həsən bəy Zərdabi prospekti,primary,40.403596,49.807587,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W128724937,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk,40.402744,49.881791,3.5,METRIC_SIGN,3.5,11.48,"11'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W128738549,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk_link,40.390869,49.866667,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W133129929,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.386998,49.827572,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W151460321,Azerbaijan,Baku Transit & Rail Overpasses,Zabrat - Sabunçu şossesi,primary,40.443494,49.933972,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W154836414,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk,40.390446,49.865711,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W156756364,Azerbaijan,Baku Transit & Rail Overpasses,M1,trunk,40.411131,49.803599,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W163789968,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,motorway,40.415452,49.800893,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W163863468,Azerbaijan,Baku Transit & Rail Overpasses,Tbilisi prospekti,primary,40.398653,49.812577,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W163961209,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.411682,49.802827,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W164675841,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk_link,40.39215,49.867324,3.5,METRIC_SIGN,3.5,11.48,"11'-6""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W164675854,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.392023,49.866739,2,METRIC_SIGN,2.0,6.56,"6'-7""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W170508561,Azerbaijan,Baku Transit & Rail Overpasses,Bakı-Sumqayıt yolu,trunk,40.434591,49.781832,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W170587762,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.43931,49.94204,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W170587763,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.434948,49.929779,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W183158719,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary,40.410589,49.804131,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W183158732,Azerbaijan,Baku Transit & Rail Overpasses,Tbilisi prospekti,primary,40.398564,49.812495,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W186259701,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.439752,49.933796,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W197664964,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk_link,40.393004,49.867588,2.5,METRIC_SIGN,2.5,8.2,"8'-2""",unposted,CRITICAL_LOW_BRIDGE
+OSM-W197665467,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.43634,49.931671,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W197665469,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.424799,49.921288,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W218405988,Azerbaijan,Baku Transit & Rail Overpasses,Bakı-Sumqayıt yolu,trunk,40.434276,49.782575,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W356597799,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.440147,50.005484,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W384165494,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary_link,40.403404,49.808216,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W384165495,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary_link,40.40499,49.807143,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W442264000,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk,40.390684,49.866987,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W448044046,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.424907,49.921109,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W496375311,Azerbaijan,Baku Transit & Rail Overpasses,Abdulla Şaiq küçəsi,primary,40.374086,49.825376,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W496375312,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary_link,40.374217,49.825947,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-W497270534,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary_link,40.415615,49.857732,5,METRIC_SIGN,5.0,16.4,"16'-5""",unposted,STANDARD_CLEARANCE
+OSM-W498123150,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary,40.388536,49.868027,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W586406558,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,motorway_link,40.431904,49.924783,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W587269458,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,motorway_link,40.431419,49.926845,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W587269459,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,motorway_link,40.433153,49.928742,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W667702403,Azerbaijan,Baku Transit & Rail Overpasses,Bəşir Səfəroğlu küçəsi,residential,40.372854,49.8306,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W781131844,Azerbaijan,Baku Transit & Rail Overpasses,Mirzəağa Əliyev küçəsi,primary,40.374164,49.828174,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W781131846,Azerbaijan,Baku Transit & Rail Overpasses,Füzuli küçəsi,primary,40.374838,49.827982,4.8,METRIC_SIGN,4.8,15.75,"15'-9""",unposted,STANDARD_CLEARANCE
+OSM-W791626664,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.403875,49.807767,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W791626666,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.404531,49.807564,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W798971830,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary_link,40.395144,49.954684,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W886405743,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,tertiary,40.427088,49.791861,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1270685985,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,trunk,40.418698,49.911992,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1270980045,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.438904,49.935092,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1415689042,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,trunk,40.392557,49.867241,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1515380158,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.397003,49.814463,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1515380159,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.396915,49.81438,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1548247020,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.403977,49.807976,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1548322878,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary,40.411202,49.80366,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1548322879,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary,40.410855,49.803922,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1548322880,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,secondary,40.411109,49.80372,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1548532124,Azerbaijan,Baku Transit & Rail Overpasses,Urban Underpass / Bridge,primary,40.404423,49.807341,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536795,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.411197,49.803122,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536796,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.410526,49.803529,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536797,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.41003,49.80383,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536798,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.409706,49.804026,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536799,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.409243,49.804307,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536800,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.408098,49.80499,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1549536801,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.406509,49.805959,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074110,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.440962,49.933739,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074111,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.441834,49.933746,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074112,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.442549,49.933792,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074113,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.442918,49.933841,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074114,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.443343,49.933911,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074115,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.444033,49.934019,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074116,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.445021,49.934227,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074117,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.445954,49.934458,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074118,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.446771,49.934698,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074119,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.447814,49.935018,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074120,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.448508,49.935236,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074121,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.448969,49.935383,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074122,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.449693,49.935611,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074123,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.450319,49.935801,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074124,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.450509,49.935853,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1550074125,Azerbaijan,Baku Transit & Rail Overpasses,Sabunçu - Zabrat şossesi,primary,40.450716,49.935892,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1553125037,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.433873,49.929215,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1554408887,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.439592,49.95827,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1557607352,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.437621,49.932707,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1560852035,Azerbaijan,Baku Transit & Rail Overpasses,Heydər Əliyev prospekti,motorway,40.438311,49.934086,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE
+OSM-W1567252824,Azerbaijan,Baku Transit & Rail Overpasses,Moskva prospekti,secondary,40.407113,49.805577,4.5,METRIC_SIGN,4.5,14.76,"14'-9""",unposted,STANDARD_CLEARANCE

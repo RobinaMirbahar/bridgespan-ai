@@ -1,0 +1,17 @@
+{
+  "dataset_name": "BridgeSpan Global Bridge Clearance, Load & Flood-Scour Safety Benchmark",
+  "sources": [
+    "US DOT Federal Highway Administration (FHWA) 2024 National Bridge Inventory (NBI)",
+    "USGS National Water Information System (NWIS) 15-Minute Instantaneous River Telemetry",
+    "OpenStreetMap Overpass API Global Maxheight & Bridge Tags",
+    "Copernicus GloFAS & Open-Meteo Global River Discharge and Wind Gust Reanalysis/Forecast",
+    "OSRM (Open Source Routing Machine) Heavy-Vehicle Detour Geometry"
+  ],
+  "files": {
+    "fhwa_nbi_2024_hazard_bridges.csv": 4500,
+    "osm_global_low_clearance_bridges.csv": 309,
+    "usgs_live_river_scour_telemetry.csv": 1436,
+    "global_glofas_flood_and_wind_daily.csv": 360,
+    "bridgespan_dispatch_benchmark_80.csv": 80
+  }
+}

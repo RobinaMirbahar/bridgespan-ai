@@ -1,0 +1,361 @@
+corridor_id,corridor_name,country,latitude,longitude,date,glofas_river_discharge_cms,glofas_river_discharge_max_cms,daily_precipitation_mm,max_wind_speed_kmh,max_wind_gust_kmh,high_sided_truck_wind_alert
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-06,0.09,0.09,0.0,16.5,34.9,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-07,0.16,0.16,0.0,5.5,11.9,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-08,0.09,0.09,0.0,8.2,19.4,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-09,0.06,0.06,0.0,14.3,24.8,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-10,0.05,0.05,1.9,17.6,39.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-11,1.11,2.89,8.7,20.2,52.6,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-12,1.04,1.81,0.0,15.3,41.4,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-13,0.34,0.34,0.0,6.8,16.6,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-14,0.21,0.21,0.0,11.1,18.0,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-15,0.12,0.12,0.0,9.9,19.1,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-16,0.08,0.08,0.0,18.8,31.7,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-17,0.05,0.05,11.6,24.8,46.8,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-18,0.68,1.53,0.0,19.9,41.8,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-19,0.37,0.37,0.0,16.4,34.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-20,0.28,0.28,0.0,17.8,38.5,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-21,0.16,0.16,0.0,13.7,29.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-22,0.1,0.1,0.0,11.6,22.3,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-23,0.07,0.07,0.0,15.1,30.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-24,0.05,0.05,0.0,15.7,25.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-25,0.04,0.04,0.0,13.6,29.9,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-26,0.03,0.03,0.0,7.3,15.8,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-27,0.03,0.03,0.0,8.4,15.1,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-28,0.02,0.02,0.0,12.0,22.3,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-29,0.02,0.02,0.0,7.9,17.3,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-30,0.02,0.02,0.0,11.0,25.9,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-10-31,0.02,0.02,0.0,12.8,28.1,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-01,0.02,0.02,0.0,10.5,23.0,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-02,0.02,0.02,0.0,10.1,16.6,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-03,0.02,0.02,0.0,8.1,13.3,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-04,0.02,0.02,0.0,8.3,19.8,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-05,0.02,0.02,0.0,15.1,29.5,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-06,0.02,0.09,5.1,12.3,28.4,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-07,2.6,3.86,0.0,14.4,36.0,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-08,1.12,1.12,0.0,10.6,26.3,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-09,0.31,0.31,0.0,16.3,30.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-10,0.18,0.18,0.0,14.0,21.6,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-11,0.11,0.11,0.0,9.2,24.5,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-12,0.07,0.11,0.0,20.9,40.0,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-13,0.05,0.17,0.0,17.6,40.7,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-14,0.04,0.14,0.0,20.1,39.6,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-15,0.03,0.1,0.0,16.4,39.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-16,0.02,0.07,0.0,14.8,39.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-17,0.02,0.18,9.0,12.5,23.0,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-18,0.02,1.52,0.0,14.3,34.2,False
+CORR-DURHAM-NC,Durham 11-Foot-8 & Eno Corridor,United States,35.9985,-78.9072,2026-11-19,0.02,0.86,0.0,14.7,35.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-06,84.7,84.7,0.0,9.0,22.7,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-07,85.5,85.7,0.0,15.2,26.3,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-08,90.2,90.2,0.0,19.4,38.5,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-09,81.99,82.18,0.0,13.5,27.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-10,69.47,69.47,0.0,13.4,31.7,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-11,59.39,59.67,30.8,17.9,47.2,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-12,90.62,207.45,1.1,17.6,46.1,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-13,224.42,313.77,0.0,15.5,27.4,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-14,354.63,354.63,0.0,12.0,34.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-15,505.99,507.16,0.0,12.3,36.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-16,439.55,460.32,35.2,19.8,34.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-17,361.24,374.84,1.5,22.7,49.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-18,301.0,307.32,0.0,11.3,24.8,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-19,246.17,246.17,0.0,14.1,24.5,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-20,219.29,219.29,0.0,13.8,31.3,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-21,186.93,186.93,0.0,15.5,27.7,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-22,154.24,154.24,0.0,16.2,36.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-23,124.6,124.6,0.0,13.2,28.1,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-24,101.09,101.09,0.0,10.4,16.2,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-25,83.92,83.92,0.0,6.3,9.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-26,71.78,71.78,0.0,11.8,17.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-27,63.12,63.12,0.0,8.2,18.7,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-28,56.68,56.68,0.0,8.2,13.7,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-29,51.84,51.84,0.0,8.9,13.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-30,48.2,48.2,0.0,23.4,42.8,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-10-31,45.13,45.13,0.0,11.7,34.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-01,42.75,42.75,0.0,9.0,16.9,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-02,40.88,40.88,0.0,9.3,13.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-03,39.18,39.27,0.0,13.6,28.1,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-04,37.64,37.64,0.0,14.8,29.9,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-05,36.5,36.5,0.0,14.3,43.9,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-06,39.74,44.39,1.8,15.8,37.1,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-07,52.58,68.82,0.0,24.6,47.2,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-08,78.43,78.43,0.0,17.1,49.3,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-09,48.55,48.55,0.0,23.8,53.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-10,51.97,52.09,0.0,14.0,36.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-11,52.58,52.58,0.0,8.9,22.3,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-12,49.7,49.82,0.43,16.5,29.2,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-13,49.82,67.23,0.0,19.1,33.1,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-14,48.89,117.85,0.0,22.4,44.6,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-15,46.64,173.98,0.0,20.2,44.3,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-16,45.03,240.55,0.0,15.9,25.9,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-17,44.81,277.61,0.0,12.5,24.5,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-18,44.19,251.93,0.0,10.1,22.0,False
+CORR-POTOMAC-DC,Chain Bridge Potomac Scour Corridor,United States,38.9295,-77.1173,2026-11-19,42.05,231.27,0.0,8.4,24.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-06,0.97,1.07,0.0,22.1,50.4,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-07,0.86,0.86,0.0,18.8,37.4,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-08,0.77,0.77,0.0,25.5,45.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-09,0.69,0.87,0.0,26.7,50.0,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-10,0.63,0.63,0.0,16.3,24.5,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-11,0.58,0.59,2.2,9.5,19.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-12,0.61,1.12,15.6,16.2,34.9,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-13,8.27,15.63,0.0,15.4,34.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-14,8.95,12.18,0.0,17.9,48.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-15,4.66,10.75,0.0,21.8,51.5,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-16,2.28,2.3,3.2,20.5,50.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-17,2.81,6.71,3.3,24.7,54.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-18,2.71,4.18,0.0,16.6,45.0,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-19,1.99,1.99,0.0,11.3,15.5,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-20,1.54,1.57,0.0,22.7,49.3,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-21,1.16,1.19,0.0,20.9,48.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-22,0.94,0.96,0.0,21.0,46.4,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-23,0.78,0.8,0.0,18.2,50.0,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-24,0.69,0.69,0.0,8.7,12.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-25,0.64,0.65,0.0,10.5,15.1,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-26,0.58,0.58,0.0,12.9,27.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-27,0.52,0.52,0.0,20.4,52.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-28,0.48,0.49,0.0,8.7,19.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-29,0.48,0.49,0.0,21.1,37.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-30,0.42,0.42,0.0,26.8,50.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-10-31,0.38,0.4,0.0,21.7,51.1,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-01,0.36,0.36,0.0,13.4,23.4,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-02,0.35,0.35,0.0,17.3,27.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-03,0.33,0.33,0.0,14.7,25.9,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-04,0.31,0.31,0.0,18.8,30.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-05,0.29,0.29,0.0,22.5,49.3,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-06,0.28,0.73,34.4,18.6,52.9,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-07,4.68,20.63,32.1,16.6,31.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-08,13.42,24.41,6.2,23.5,50.8,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-09,11.11,17.97,0.0,17.9,42.5,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-10,6.78,7.17,0.0,16.8,43.9,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-11,3.89,3.89,0.0,14.3,29.2,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-12,2.59,2.61,9.9,13.3,27.7,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-13,1.94,7.45,27.5,24.6,45.4,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-14,4.06,21.08,1.2,26.4,45.0,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-15,4.13,16.42,0.0,14.3,37.1,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-16,2.85,9.42,0.0,10.2,20.2,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-17,2.03,4.87,0.0,9.7,17.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-18,1.58,3.23,0.0,6.5,12.6,False
+CORR-BOSTON-MA,Boston Storrow Drive Charles Basin,United States,42.3523,-71.0906,2026-11-19,1.31,18.63,0.0,6.9,14.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-06,35.9,64.31,0.0,12.5,31.7,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-07,27.71,82.18,0.0,9.4,27.7,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-08,20.83,25.0,0.0,13.7,29.2,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-09,16.3,16.3,0.0,13.4,31.3,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-10,13.32,13.39,0.0,14.0,25.9,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-11,11.47,11.47,0.0,12.8,24.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-12,10.22,10.22,0.0,18.8,28.4,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-13,20.53,55.89,0.0,15.2,33.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-14,23.32,40.21,0.0,16.9,36.4,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-15,18.23,22.6,0.0,10.6,26.6,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-16,11.5,13.0,0.0,25.2,42.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-17,11.56,18.68,0.0,21.0,55.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-18,10.64,10.64,0.0,8.6,23.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-19,9.0,9.0,0.0,12.3,25.6,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-20,8.73,8.82,0.0,9.5,21.2,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-21,8.51,8.64,0.0,9.8,19.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-22,8.35,8.38,0.0,10.5,17.6,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-23,8.25,8.25,0.0,10.3,15.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-24,8.16,8.16,0.0,14.2,19.4,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-25,8.1,8.1,0.0,14.4,27.4,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-26,8.04,8.06,0.0,12.3,19.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-27,7.99,8.02,0.0,10.7,22.0,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-28,8.79,59.67,0.0,12.2,25.9,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-29,11.53,21.75,0.0,11.6,22.3,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-30,10.72,10.75,0.0,15.9,30.2,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-10-31,13.26,28.04,0.4,12.1,32.4,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-01,12.46,41.56,0.0,7.9,13.3,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-02,11.71,11.79,0.0,13.6,24.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-03,19.51,19.56,0.0,16.2,40.3,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-04,23.38,53.83,0.0,11.4,27.7,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-05,20.68,20.68,0.0,9.5,16.9,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-06,17.66,17.66,0.0,10.2,19.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-07,13.29,13.59,0.0,11.5,28.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-08,10.86,10.91,0.0,10.2,33.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-09,14.89,40.5,0.7,12.9,21.6,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-10,18.72,33.51,0.0,9.7,18.0,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-11,16.86,44.71,5.4,8.3,15.5,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-12,16.42,111.98,0.0,12.4,27.0,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-13,13.89,67.08,0.0,12.8,22.7,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-14,11.27,37.28,14.8,23.9,37.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-15,9.69,25.42,34.5,28.6,62.3,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-16,54.34,149.31,0.3,18.1,37.1,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-17,53.2,189.11,0.0,17.6,32.8,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-18,34.32,147.25,0.0,15.6,27.0,False
+CORR-HOUSTON-TX,Houston Buffalo Bayou Underpasses,United States,29.7633,-95.3736,2026-11-19,22.99,548.54,7.4,21.9,34.2,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-06,7.47,7.49,0.0,9.4,20.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-07,7.07,7.09,8.7,17.3,37.8,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-08,15.6,39.64,0.9,17.6,37.8,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-09,30.62,32.96,0.5,25.2,55.1,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-10,35.22,43.16,0.0,18.4,40.7,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-11,27.38,27.38,0.0,10.4,22.7,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-12,21.59,21.65,0.1,14.4,30.6,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-13,17.07,18.82,0.1,22.3,49.0,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-14,13.89,16.42,0.0,16.2,35.3,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-15,11.85,11.85,0.0,20.5,43.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-16,10.02,10.12,2.5,17.3,37.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-17,11.59,30.55,0.0,16.9,37.1,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-18,13.83,13.83,1.2,19.8,42.8,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-19,12.37,20.09,0.2,11.9,26.6,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-20,17.97,20.43,4.5,16.6,35.6,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-21,36.5,49.47,3.7,25.2,54.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-22,90.62,110.69,5.7,18.4,40.7,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-23,147.94,169.22,14.3,31.0,66.6,True
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-24,205.54,221.33,18.7,28.1,61.6,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-25,241.66,255.45,0.4,30.2,63.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-26,185.21,185.21,2.8,21.2,45.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-27,108.9,118.95,4.0,25.2,54.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-28,90.83,99.46,0.0,15.8,34.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-29,72.62,72.62,0.0,8.6,18.7,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-30,37.46,37.46,0.0,13.0,28.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-10-31,27.97,27.97,0.0,10.4,23.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-01,21.65,21.65,0.0,11.9,25.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-02,17.37,17.41,0.3,16.9,37.1,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-03,14.38,15.87,0.2,17.6,38.5,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-04,12.15,12.87,0.0,23.0,50.8,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-05,10.3,10.35,0.0,15.8,34.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-06,9.07,9.09,1.7,6.1,13.7,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-07,9.72,13.03,0.0,4.3,10.1,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-08,12.58,14.96,0.1,6.8,15.8,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-09,7.45,7.51,0.0,12.2,27.0,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-10,6.94,6.94,4.4,17.6,38.9,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-11,9.57,23.66,15.6,16.6,36.0,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-12,15.44,70.61,0.0,18.7,41.0,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-13,20.23,81.99,0.0,13.0,27.0,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-14,18.77,58.43,0.0,6.1,10.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-15,16.14,40.59,0.4,9.4,18.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-16,13.83,81.22,3.8,9.2,19.4,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-17,13.09,158.96,6.4,20.8,51.1,False
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-18,26.73,199.45,8.0,24.2,74.9,True
+CORR-LONDON-UK,London Thames & Rail Overbridges,United Kingdom,51.5074,-0.1278,2026-11-19,62.53,218.28,0.0,17.2,51.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-06,3663.37,3663.37,0.0,15.9,33.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-07,3563.51,3579.96,0.0,13.3,29.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-08,3482.37,3490.4,0.0,12.6,26.6,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-09,3410.93,3418.79,0.0,11.6,23.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-10,3317.94,3325.6,0.0,13.3,25.9,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-11,3279.95,3287.52,0.0,15.9,32.4,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-12,3227.49,3234.94,0.1,16.5,34.9,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-13,3175.87,3183.2,0.0,9.3,22.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-14,3154.01,3154.01,0.0,12.2,25.6,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-15,3183.2,3190.54,0.0,18.3,36.7,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-16,3212.66,3212.66,0.0,18.7,40.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-17,3257.37,3257.37,0.0,11.5,23.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-18,3310.31,3310.31,0.0,11.4,22.7,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-19,3340.95,3348.66,0.0,13.4,31.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-20,3364.12,3364.12,0.0,9.1,20.2,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-21,3403.08,3403.08,0.0,9.9,22.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-22,3474.36,3474.36,0.0,11.0,23.4,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-23,3571.73,3579.96,0.0,10.8,23.8,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-24,3629.78,3629.78,0.0,11.5,22.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-25,3604.79,3604.79,0.0,14.3,33.1,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-26,3547.13,3547.13,0.0,11.6,29.2,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-27,3482.37,3482.37,0.0,9.4,21.2,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-28,3410.93,3410.93,0.0,11.2,27.7,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-29,3348.66,3348.66,0.0,8.8,20.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-30,3279.95,3279.95,0.0,14.8,26.3,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-10-31,3227.49,3227.49,0.0,9.0,22.3,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-01,3175.87,3175.87,0.0,10.5,21.2,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-02,3132.29,3132.29,0.0,12.0,25.6,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-03,3082.19,3082.19,0.0,12.3,23.8,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-04,3053.92,3053.92,0.0,11.7,28.8,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-05,3018.95,3018.95,0.0,7.6,19.4,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-06,2977.52,2977.52,0.0,8.2,18.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-07,2943.42,2943.42,0.0,9.4,24.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-08,2903.02,2903.02,0.0,11.6,22.7,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-09,2863.18,2863.18,0.0,14.2,28.1,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-10,2817.38,2817.38,0.0,11.8,23.4,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-11,2765.94,2765.94,0.0,14.0,27.4,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-12,2715.44,2715.44,0.0,19.5,41.8,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-13,2665.86,2665.86,0.0,10.0,21.6,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-14,2611.16,2617.18,0.0,13.2,32.0,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-15,2563.48,2563.48,0.0,10.0,24.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-16,2516.68,2516.68,0.0,8.7,20.5,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-17,2470.72,2470.72,0.0,8.6,26.3,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-18,2425.61,2431.2,0.0,10.5,24.1,False
+CORR-INDUS-PK,Sukkur / Indus Bridge Corridor,Pakistan,27.7052,68.8574,2026-11-19,2381.32,2397.83,0.0,7.4,22.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-06,0.89,0.95,0.2,13.3,36.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-07,0.89,0.91,0.3,11.7,33.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-08,0.89,0.89,0.0,15.5,39.6,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-09,0.89,0.89,0.0,19.9,50.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-10,0.89,0.89,0.0,18.8,47.9,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-11,0.89,0.89,0.0,14.0,38.5,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-12,0.89,0.89,0.0,14.2,38.9,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-13,0.89,0.89,0.0,14.0,37.1,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-14,0.89,0.89,0.0,12.9,35.3,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-15,0.89,0.89,0.0,12.9,36.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-16,0.89,0.89,0.0,13.0,33.5,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-17,0.89,0.89,0.0,13.5,35.6,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-18,0.89,0.93,0.0,14.0,36.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-19,0.89,0.89,0.0,12.9,35.6,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-20,0.89,0.89,0.0,12.5,33.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-21,0.89,0.89,0.0,11.6,32.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-22,0.89,0.89,0.0,12.1,32.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-23,0.89,0.89,0.0,13.6,36.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-24,0.89,0.89,0.0,13.6,36.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-25,0.89,0.89,0.0,11.8,32.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-26,0.89,0.89,0.0,13.5,36.7,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-27,0.89,0.89,0.0,10.1,23.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-28,0.89,0.89,0.0,11.9,31.3,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-29,0.89,0.89,0.0,16.2,40.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-30,0.89,0.89,0.0,11.3,23.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-10-31,0.89,0.89,0.0,12.8,33.8,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-01,0.89,0.89,0.0,12.4,34.2,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-02,0.89,0.89,0.0,10.0,28.1,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-03,0.79,0.79,0.0,11.6,30.2,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-04,0.79,0.79,0.0,12.0,31.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-05,0.79,0.79,0.0,13.1,34.6,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-06,0.79,0.79,0.0,11.7,31.7,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-07,0.79,0.79,0.0,12.9,34.2,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-08,0.79,0.79,0.0,13.5,36.4,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-09,0.79,0.79,0.0,11.1,31.3,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-10,0.79,0.79,0.0,11.5,31.7,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-11,0.79,0.79,0.0,11.0,30.6,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-12,0.79,0.79,0.0,12.6,34.9,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-13,0.79,0.79,0.3,12.5,33.1,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-14,0.79,0.97,0.9,10.7,31.3,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-15,0.9,1.13,0.0,10.9,32.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-16,0.86,1.23,0.0,11.1,33.5,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-17,0.84,1.01,0.0,10.6,36.0,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-18,0.82,0.91,0.0,10.3,29.2,False
+CORR-KARACHI-PK,Karachi Lyari & Malir Expressways,Pakistan,24.8607,67.0011,2026-11-19,0.81,0.86,0.0,9.4,28.1,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-06,1.01,1.31,3.7,21.2,33.5,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-07,1.16,3.91,0.1,12.4,24.5,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-08,0.98,2.77,0.1,20.4,34.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-09,0.2,0.2,4.3,19.5,31.3,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-10,1.19,5.44,1.1,33.2,56.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-11,1.59,2.45,0.0,13.4,22.3,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-12,0.9,0.9,0.2,25.5,41.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-13,0.34,0.34,0.0,27.0,45.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-14,0.16,0.18,0.0,19.5,32.0,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-15,0.08,0.08,0.0,25.3,40.3,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-16,0.03,0.03,0.0,23.7,38.9,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-17,0.01,0.01,0.0,14.8,24.8,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-18,0.01,0.01,0.0,23.4,38.5,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-19,0.0,0.0,0.0,46.9,81.4,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-20,0.0,0.0,0.0,35.5,58.3,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-21,0.0,0.0,0.0,16.1,27.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-22,0.0,0.0,0.0,18.3,29.9,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-23,0.0,0.26,1.0,15.9,25.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-24,0.0,0.23,1.7,17.4,27.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-25,0.0,0.45,1.4,19.5,32.0,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-26,0.09,2.52,0.0,11.3,18.7,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-27,0.16,0.16,0.1,14.6,25.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-28,0.04,0.05,1.9,12.3,20.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-29,0.02,0.05,2.4,9.0,15.8,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-30,0.01,0.16,1.1,15.3,24.8,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-10-31,0.0,0.11,4.6,15.5,25.9,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-01,0.0,0.47,0.0,21.8,36.0,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-02,0.0,0.0,0.0,10.5,19.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-03,0.0,0.0,0.0,10.0,16.9,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-04,0.0,0.0,0.0,24.3,41.0,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-05,0.0,0.0,2.3,43.0,74.9,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-06,0.0,0.23,2.5,37.0,75.2,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-07,0.0,0.02,6.2,23.4,38.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-08,0.05,1.43,6.4,47.2,83.9,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-09,0.87,1.89,13.4,47.7,85.0,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-10,2.55,6.24,0.0,19.0,33.8,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-11,1.96,2.08,11.5,22.3,38.2,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-12,1.93,3.52,0.0,26.3,44.6,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-13,1.44,2.74,0.0,35.1,61.6,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-14,0.76,1.33,0.0,16.8,28.4,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-15,0.39,0.66,0.0,23.4,42.8,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-16,0.2,0.45,3.3,39.0,74.5,True
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-17,0.11,0.77,3.3,32.2,63.0,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-18,0.06,0.79,0.0,23.2,55.1,False
+CORR-BAKU-AZ,Baku Khazri Crosswind & Rail Corridor,Azerbaijan,40.4093,49.8671,2026-11-19,0.03,0.8,0.0,16.4,34.9,False
