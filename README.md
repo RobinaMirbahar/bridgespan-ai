@@ -3,9 +3,9 @@
 ![BridgeSpan AI Cover](assets/bridgespan_banner.jpg)
 
 [![Live Streamlit App](https://img.shields.io/badge/Live_App-Streamlit_Cloud-FF4B4B?logo=streamlit&logoColor=white)](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)
-[![Google ADK](https://img.shields.io/badge/Google_ADK-Agent_Framework-4285F4?logo=google)](https://google.github.io/adk-docs/)
-[![Gemma 4](https://img.shields.io/badge/Model-Gemma_4_(Open_Weights)-0F9D58?logo=googlecloud)](https://ai.google.dev/gemma/docs)
-[![Cloud Run](https://img.shields.io/badge/Deploy-Google_Cloud_Run-FFCA28?logo=googlecloud)](https://cloud.google.com/run/docs)
+[![Google ADK](https://img.shields.io/badge/Google_ADK-Agent_Framework-4285F4?logo=google)](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco)
+[![Gemma 4](https://img.shields.io/badge/Model-Gemma_4_(Open_Weights)-0F9D58?logo=googlecloud)](https://ai.google.dev/gemma/docs?utm_campaign=deveco_gdemembers&utm_source=deveco)
+[![Cloud Run](https://img.shields.io/badge/Deploy-Google_Cloud_Run-FFCA28?logo=googlecloud)](https://cloud.google.com/run/docs?utm_campaign=deveco_gdemembers&utm_source=deveco)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-4%2C809_Real_Bridges-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/robinamirbahar/bridgespan-global-bridge-strike-load-scour)
 [![Kaggle Notebook](https://img.shields.io/badge/Kaggle_Notebook-FHWA_NBI_%26_Scour_Starter-20BEFF?logo=kaggle)](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)
 
@@ -29,7 +29,7 @@ Raw LLM navigation assistants fail on physical bridge safety because they:
 2. Route heavy vehicles (`34.5 t` to `42.0 t`) across historic parkways or load-posted trusses (`15.0 t` to `22.5 t`).
 3. Ignore live **USGS 15-minute river stage surges** acting on scour-critical bridge piers.
 
-I built **BridgeSpan AI** to solve this end-to-end, pairing [Google ADK](https://google.github.io/adk-docs/) and [Gemma 4](https://ai.google.dev/gemma/docs) with **4-gate deterministic civil-engineering safety interlocks**, **live OSRM heavy-truck detour geometry on a mobile-responsive dark Leaflet map**, and a **100% real multi-source benchmark dataset**.
+I built **BridgeSpan AI** to solve this end-to-end, pairing [Google ADK](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco) and [Gemma 4](https://ai.google.dev/gemma/docs?utm_campaign=deveco_gdemembers&utm_source=deveco) with **4-gate deterministic civil-engineering safety interlocks**, **live OSRM heavy-truck detour geometry on a mobile-responsive dark Leaflet map**, and a **100% real multi-source benchmark dataset**.
 
 ![BridgeSpan AI Live Mobile-Responsive Console](assets/bridgespan_console_live.jpg)
 
