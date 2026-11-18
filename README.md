@@ -50,18 +50,6 @@ flowchart TD
     C -->|"Gate 3: Item 113 Pier + Surge >= 1.80m"| F["🌊 Flood-Scour Bridge Closure + Deep-Pier Detour"]
     C -->|"Gate 4: High-Sided + Gust >= 65 km/h"| G["⚠️ Rollover Clamp (Max 50 km/h)"]
     C -->|"All 4 Gates Pass"| I["✅ Clear Primary Corridor + Live LED Gantry Sign"]
-    style A fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Profile fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style LlmAgent fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style H fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style C fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style D fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style E fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style F fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style G fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Clamp fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style I fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
