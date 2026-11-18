@@ -18,8 +18,11 @@
 | 📓 **Companion Kaggle Starter Notebook** | **[kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter](https://www.kaggle.com/code/robinamirbahar/bridgespan-ai-2024-fhwa-nbi-scour-starter)** |
 | 💻 **Open-Source Blueprint** | **[github.com/RobinaMirbahar/bridgespan-ai](https://github.com/RobinaMirbahar/bridgespan-ai)** |
 
----
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
+> 📚 **Companion Publications:** [DEV.to (@gde) Featured Article](https://dev.to/gde/why-trucks-keep-hitting-11-foot-8-bridges-how-i-built-bridgespan-ai-with-gemma-4-google-adk-to-18bi) · [Medium Article](https://medium.com/@robinamirbahar/why-trucks-keep-hitting-11-foot-8-bridges-how-i-built-bridgespan-ai-with-gemma-4-google-adk-to-ed76170bbdef) · [Live Streamlit App](https://bridgespan-ai-mvhoucpfp2n5o25dewb2hi.streamlit.app/)  
+> **Core Stack:** Open-Weights [Google Gemma 4](https://ai.google.dev/gemma/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Cloud Run](https://cloud.google.com/run/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), OSRM Heavy-Truck Routing, and 2024 FHWA NBI + Live USGS Telemetry.
 
+---
 ## 🚨 The Real-World Problem
 
 Every year across the United States, Europe, Australia, and Asia, thousands of commercial semi-trailers, double-deck box trucks, and buses slam into low-clearance bridges, most famously Durham's **`11-foot-8+8` ("Can Opener") rail trestle**, Boston's **Storrow Drive**, New York's **Hutchinson River Parkway stone arches**, and Melbourne's **Montague Street 3.0 m overpass**. Beyond overhead strikes, **hydraulic pier scour** during flash-flood surges is the **#1 cause of highway bridge collapse in the United States** ([FHWA Item 113 / HEC-18](https://www.fhwa.dot.gov/bridge/nbi.cfm)), while overweight cranes and freight haulers routinely overstress aging load-posted trusses.
@@ -47,6 +50,18 @@ flowchart TD
     C -->|"Gate 3: Item 113 Pier + Surge >= 1.80m"| F["🌊 Flood-Scour Bridge Closure + Deep-Pier Detour"]
     C -->|"Gate 4: High-Sided + Gust >= 65 km/h"| G["⚠️ Rollover Clamp (Max 50 km/h)"]
     C -->|"All 4 Gates Pass"| I["✅ Clear Primary Corridor + Live LED Gantry Sign"]
+    style A fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Profile fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style LlmAgent fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style H fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style C fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style D fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style E fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style F fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style G fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Clamp fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style I fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
 ```
 
 ---
